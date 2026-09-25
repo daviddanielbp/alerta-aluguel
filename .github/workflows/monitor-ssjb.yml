@@ -77,6 +77,10 @@ jobs:
         if: steps.orc.outputs.rodar == 'true'
         run: node monitor/run.js --grupo=ssjb ${{ inputs.seed && '--seed' || '' }}
 
+      - name: Logs dos coletores (resumo)
+        if: always() && steps.orc.outputs.rodar == 'true'
+        run: for f in monitor/state/logs/*.log; do echo "::group::$f"; tail -n 60 "$f"; echo "::endgroup::"; done 2>/dev/null || true
+
       - name: Registrar minutos usados
         if: always()
         run: node monitor/orcamento.js registrar --inicio="$INICIO"
