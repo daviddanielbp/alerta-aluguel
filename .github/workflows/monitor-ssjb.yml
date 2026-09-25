@@ -29,6 +29,8 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GH_TOKEN: ${{ github.token }}
       TZ: America/Sao_Paulo
+      # OLX e ImovelWeb bloqueiam IPs de datacenter: na nuvem ficam de fora (rodam no modo local)
+      SSJB_PULAR: OLX,ImovelWeb
     steps:
       - name: Marcar início (para a trava de orçamento)
         run: echo "INICIO=$(date +%s)" >> "$GITHUB_ENV"

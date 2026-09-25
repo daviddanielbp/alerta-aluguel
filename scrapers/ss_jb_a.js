@@ -632,7 +632,11 @@ async function coletarImovelweb(precoMax, log, amplo = false) {
 async function coletar({ precoMax = 1200, log = (m) => console.log(m), amplo = process.env.SSJB_AMPLO === '1' } = {}) {
   const t0 = Date.now();
   log(`[ss_jb_a] coletando São Sebastião + Jardim Botânico (até R$ ${precoMax})${amplo ? ' [amplo]' : ''}...`);
-  const fontes = [['OLX', coletarOlx], ['DFimóveis', coletarDfimoveis], ['ImovelWeb', coletarImovelweb]];
+  // SSJB_PULAR=OLX,ImovelWeb: pula fontes que bloqueiam o IP do ambiente (ex.: GitHub Actions)
+  const pular = (process.env.SSJB_PULAR || '').split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
+  const fontes = [['OLX', coletarOlx], ['DFimóveis', coletarDfimoveis], ['ImovelWeb', coletarImovelweb]]
+    .filter(([nome]) => !pular.includes(nome.toLowerCase()));
+  if (pular.length) log(`[ss_jb_a] pulando: ${pular.join(', ')}`);
   const res = await Promise.allSettled(fontes.map(([, fn]) => fn(precoMax, log, amplo)));
   const todos = [];
   const bloqueios = [];

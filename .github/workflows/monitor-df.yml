@@ -29,6 +29,8 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GH_TOKEN: ${{ github.token }}
       TZ: America/Sao_Paulo
+      # OLX e ImovelWeb bloqueiam IPs de datacenter: na nuvem ficam de fora (rodam no modo local)
+      SSJB_PULAR: OLX,ImovelWeb
     steps:
       - name: Marcar início (para a trava de orçamento)
         run: echo "INICIO=$(date +%s)" >> "$GITHUB_ENV"
@@ -79,7 +81,7 @@ jobs:
 
       - name: Rodar monitor (DF inteiro + varredura ampla de SS/JB)
         if: steps.orc.outputs.rodar == 'true'
-        run: SSJB_AMPLO=1 node monitor/run.js --grupo=todos ${{ inputs.seed && '--seed' || '' }}
+        run: SSJB_AMPLO=1 node monitor/run.js --grupo=todos --coletores=ss_jb_a,ss_jb_b,dfimoveis,zap_vivareal,quintoandar,chaves_mercadolivre,outros ${{ inputs.seed && '--seed' || '' }}
 
       - name: Logs dos coletores (resumo)
         if: always() && steps.orc.outputs.rodar == 'true'
