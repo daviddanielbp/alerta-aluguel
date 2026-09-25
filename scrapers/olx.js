@@ -14,7 +14,12 @@ const CATEGORIAS = [
   { tipo: 'apartamento', path: 'apartamentos' },
   { tipo: 'casa', path: 'casas' },
 ];
-const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
+// UA coerente com o navegador e o SO reais (mesma versão do sec-ch-ua, sem "HeadlessChrome"). Um UA de Mac/Chrome 128
+// fixo num Chromium 15x rodando em Linux é o que fazia o Cloudflare da OLX bloquear o runner do GitHub Actions.
+function uaCoerente(browser) {
+  const plat = process.platform === 'darwin' ? 'Macintosh; Intel Mac OS X 10_15_7' : process.platform === 'win32' ? 'Windows NT 10.0; Win64; x64' : 'X11; Linux x86_64';
+  return `Mozilla/5.0 (${plat}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${browser.version().split('.')[0]}.0.0.0 Safari/537.36`;
+}
 const OUT = path.join(__dirname, '..', 'data', 'olx.json');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -102,7 +107,7 @@ function fromListing(ad, tipoCat) {
 
 async function newContext(browser) {
   const ctx = await browser.newContext({
-    userAgent: UA,
+    userAgent: uaCoerente(browser),
     locale: 'pt-BR',
     timezoneId: 'America/Sao_Paulo',
     viewport: { width: 1366, height: 900 },
@@ -209,7 +214,8 @@ function sanitiza(a) {
 }
 
 async function main() {
-  const browser = await chromium.launch({ headless: true, args: ['--disable-blink-features=AutomationControlled'] });
+  // channel 'chromium' = Chromium completo em modo "new headless" (o headless-shell é mais fácil de identificar).
+  const browser = await chromium.launch({ headless: true, channel: 'chromium', args: ['--disable-blink-features=AutomationControlled'] });
   const ctx = await newContext(browser);
   const page = await ctx.newPage();
   let brutos = 0;

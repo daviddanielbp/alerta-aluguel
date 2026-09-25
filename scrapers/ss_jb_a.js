@@ -157,7 +157,12 @@ async function comConcorrencia(itens, n, fn) {
 // =====================================================================================
 // OLX
 // =====================================================================================
-const OLX_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
+// UA coerente com o navegador e o SO reais (mesma versão do sec-ch-ua, sem "HeadlessChrome"). Um UA de Mac/Chrome 128
+// fixo num Chromium 15x rodando em Linux é o que fazia o Cloudflare da OLX bloquear o runner do GitHub Actions.
+function uaCoerente(browser) {
+  const plat = process.platform === 'darwin' ? 'Macintosh; Intel Mac OS X 10_15_7' : process.platform === 'win32' ? 'Windows NT 10.0; Win64; x64' : 'X11; Linux x86_64';
+  return `Mozilla/5.0 (${plat}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${browser.version().split('.')[0]}.0.0.0 Safari/537.36`;
+}
 
 function olxExtrairAds(html) {
   const re = /self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)/g;
@@ -223,7 +228,7 @@ async function olxAbrir(page, url) {
 async function olxDetalhe(browser, a, st) {
   let html = null;
   for (let t = 0; t < 3 && !html; t++) {
-    const ctx = await novoContexto(browser, OLX_UA);
+    const ctx = await novoContexto(browser, uaCoerente(browser));
     const page = await ctx.newPage();
     try {
       const r = await page.goto(a.link, { waitUntil: 'domcontentloaded', timeout: 60000 });
@@ -263,10 +268,11 @@ async function olxDetalhe(browser, a, st) {
 
 async function coletarOlx(precoMax, log, amplo = false) {
   const st = { paginas: 0, brutos: 0, det403: 0, bloqueios: [] };
-  const browser = await chromium.launch({ headless: true, args: ['--disable-blink-features=AutomationControlled'] });
+  // channel 'chromium' = Chromium completo em modo "new headless" (o headless-shell é mais fácil de identificar).
+  const browser = await chromium.launch({ headless: true, channel: 'chromium', args: ['--disable-blink-features=AutomationControlled'] });
   const cands = new Map();
   try {
-    const ctx = await novoContexto(browser, OLX_UA);
+    const ctx = await novoContexto(browser, uaCoerente(browser));
     const page = await ctx.newPage();
     const base = 'https://www.olx.com.br/imoveis/aluguel';
     const buscas = [];
