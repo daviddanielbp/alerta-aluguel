@@ -1,0 +1,2575 @@
+{
+  "geradoEm": "2026-09-25T15:36:37.345Z",
+  "nota": "HTTP = headers+corpos (Playwright request.sizes() + undici). fio = bytes por processo via nettop do macOS (inclui TLS/TCP/ACKs/QUIC). diff = links presentes só numa das execuções (sem x com bloqueio).",
+  "resultados": [
+    {
+      "coletor": "ss_jb_a",
+      "grupo": "SSJB",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 454,
+      "anuncios": 12,
+      "requests": 9139,
+      "bloqueados": 1380,
+      "cacheHits": 0,
+      "bytesOut": 17484626,
+      "bytesIn": 189923758,
+      "fioBytesOut": 20531461,
+      "fioBytesIn": 216854812,
+      "topHosts": {
+        "static.olx.com.br": {
+          "requests": 1090,
+          "blocked": 141,
+          "bytesOut": 3496903,
+          "bytesIn": 59798500
+        },
+        "www.googletagmanager.com": {
+          "requests": 153,
+          "blocked": 6,
+          "bytesOut": 56316,
+          "bytesIn": 24227237
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 363,
+          "blocked": 1,
+          "bytesOut": 343225,
+          "bytesIn": 11964264
+        },
+        "challenges.cloudflare.com": {
+          "requests": 73,
+          "blocked": 1,
+          "bytesOut": 1435991,
+          "bytesIn": 9778512
+        },
+        "cdn.taboola.com": {
+          "requests": 124,
+          "blocked": 199,
+          "bytesOut": 52800,
+          "bytesIn": 9084528
+        },
+        "www.dfimoveis.com.br": {
+          "requests": 779,
+          "blocked": 17,
+          "bytesOut": 815558,
+          "bytesIn": 4885566
+        },
+        "img10.naventcdn.com": {
+          "requests": 344,
+          "blocked": 0,
+          "bytesOut": 296158,
+          "bytesIn": 5274385
+        },
+        "connect.facebook.net": {
+          "requests": 54,
+          "blocked": 2,
+          "bytesOut": 20914,
+          "bytesIn": 5446768
+        },
+        "micro.rubiconproject.com": {
+          "requests": 38,
+          "blocked": 0,
+          "bytesOut": 16944,
+          "bytesIn": 5328073
+        },
+        "cdn.boxicons.com": {
+          "requests": 28,
+          "blocked": 3,
+          "bytesOut": 11633,
+          "bytesIn": 4956488
+        },
+        "pagead2.googlesyndication.com": {
+          "requests": 601,
+          "blocked": 13,
+          "bytesOut": 274913,
+          "bytesIn": 4506060
+        },
+        "search-microfrontends.olx.com.br": {
+          "requests": 199,
+          "blocked": 0,
+          "bytesOut": 663106,
+          "bytesIn": 2450138
+        },
+        "cdn.mouseflow.com": {
+          "requests": 38,
+          "blocked": 0,
+          "bytesOut": 15620,
+          "bytesIn": 2465086
+        },
+        "lurker.olx.com.br": {
+          "requests": 324,
+          "blocked": 0,
+          "bytesOut": 2391483,
+          "bytesIn": 83244
+        },
+        "analytics.tiktok.com": {
+          "requests": 104,
+          "blocked": 0,
+          "bytesOut": 185250,
+          "bytesIn": 2269112
+        }
+      },
+      "porTipo": {
+        "script": {
+          "requests": 3244,
+          "blocked": 0,
+          "bytesOut": 4891018,
+          "bytesIn": 148369498
+        },
+        "fetch": {
+          "requests": 2462,
+          "blocked": 0,
+          "bytesOut": 4470677,
+          "bytesIn": 18748196
+        },
+        "xhr": {
+          "requests": 473,
+          "blocked": 0,
+          "bytesOut": 2278512,
+          "bytesIn": 8773358
+        },
+        "document": {
+          "requests": 690,
+          "blocked": 0,
+          "bytesOut": 1309088,
+          "bytesIn": 5355756
+        },
+        "image": {
+          "requests": 1487,
+          "blocked": 1271,
+          "bytesOut": 1731198,
+          "bytesIn": 4246044
+        },
+        "stylesheet": {
+          "requests": 306,
+          "blocked": 0,
+          "bytesOut": 592654,
+          "bytesIn": 2708120
+        },
+        "ping": {
+          "requests": 319,
+          "blocked": 0,
+          "bytesOut": 2138564,
+          "bytesIn": 104640
+        },
+        "other": {
+          "requests": 63,
+          "blocked": 0,
+          "bytesOut": 27050,
+          "bytesIn": 1225304
+        },
+        "font": {
+          "requests": 95,
+          "blocked": 109,
+          "bytesOut": 45865,
+          "bytesIn": 392842
+        }
+      }
+    },
+    {
+      "coletor": "ss_jb_a",
+      "grupo": "SSJB",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 303,
+      "anuncios": 12,
+      "requests": 191,
+      "bloqueados": 2789,
+      "cacheHits": 3,
+      "bytesOut": 270562,
+      "bytesIn": 7750031,
+      "fioBytesOut": 372508,
+      "fioBytesIn": 8505827,
+      "topHosts": {
+        "www.olx.com.br": {
+          "requests": 41,
+          "blocked": 82,
+          "bytesOut": 71382,
+          "bytesIn": 2527912
+        },
+        "www.imovelweb.com.br": {
+          "requests": 50,
+          "blocked": 0,
+          "bytesOut": 80335,
+          "bytesIn": 1815887
+        },
+        "www.wimoveis.com.br": {
+          "requests": 49,
+          "blocked": 0,
+          "bytesOut": 63826,
+          "bytesIn": 1735444
+        },
+        "df.olx.com.br": {
+          "requests": 20,
+          "blocked": 0,
+          "bytesOut": 21942,
+          "bytesIn": 1016746
+        },
+        "www.dfimoveis.com.br": {
+          "requests": 22,
+          "blocked": 244,
+          "bytesOut": 28810,
+          "bytesIn": 298671
+        },
+        "cdn.jsdelivr.net": {
+          "requests": 1,
+          "blocked": 10,
+          "bytesOut": 363,
+          "bytesIn": 269659
+        },
+        "web.webpushs.com": {
+          "requests": 2,
+          "blocked": 4,
+          "bytesOut": 779,
+          "bytesIn": 77039
+        },
+        "img10.naventcdn.com": {
+          "requests": 4,
+          "blocked": 262,
+          "bytesOut": 2369,
+          "bytesIn": 4280
+        },
+        "cdn-lib.quintoandar.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 391,
+          "bytesIn": 3358
+        },
+        "www.google.com": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 365,
+          "bytesIn": 1035
+        },
+        "static.olx.com.br": {
+          "requests": 0,
+          "blocked": 1576,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 61,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "pub.olx.com.br": {
+          "requests": 0,
+          "blocked": 51,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "img.olx.com.br": {
+          "requests": 0,
+          "blocked": 114,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "launchpad-wrapper.privacymanager.io": {
+          "requests": 0,
+          "blocked": 41,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "document": {
+          "requests": 65,
+          "blocked": 0,
+          "bytesOut": 84898,
+          "bytesIn": 4182069
+        },
+        "fetch": {
+          "requests": 85,
+          "blocked": 0,
+          "bytesOut": 101302,
+          "bytesIn": 3114931
+        },
+        "script": {
+          "requests": 21,
+          "blocked": 1920,
+          "bytesOut": 22278,
+          "bytesIn": 381571
+        },
+        "other": {
+          "requests": 13,
+          "blocked": 0,
+          "bytesOut": 7351,
+          "bytesIn": 67380
+        },
+        "xhr": {
+          "requests": 7,
+          "blocked": 0,
+          "bytesOut": 54733,
+          "bytesIn": 4080
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 65,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 313,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 491,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      }
+    },
+    {
+      "coletor": "ss_jb_b",
+      "grupo": "SSJB",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 302,
+      "anuncios": 4,
+      "requests": 5402,
+      "bloqueados": 2856,
+      "cacheHits": 0,
+      "bytesOut": 4871133,
+      "bytesIn": 71415928,
+      "fioBytesOut": 5942794,
+      "fioBytesIn": 75459781,
+      "topHosts": {
+        "cdn.chavesnamao.com.br": {
+          "requests": 3169,
+          "blocked": 30,
+          "bytesOut": 2746581,
+          "bytesIn": 29982587
+        },
+        "img10.naventcdn.com": {
+          "requests": 906,
+          "blocked": 2228,
+          "bytesOut": 582060,
+          "bytesIn": 9820620
+        },
+        "www.googletagmanager.com": {
+          "requests": 57,
+          "blocked": 0,
+          "bytesOut": 26839,
+          "bytesIn": 9605737
+        },
+        "correiobraziliense.lugarcerto.com.br": {
+          "requests": 70,
+          "blocked": 0,
+          "bytesOut": 27244,
+          "bytesIn": 3428704
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 57,
+          "blocked": 0,
+          "bytesOut": 40667,
+          "bytesIn": 3375653
+        },
+        "www.chavesnamao.com.br": {
+          "requests": 95,
+          "blocked": 91,
+          "bytesOut": 119913,
+          "bytesIn": 2608581
+        },
+        "www.casamineira.com.br": {
+          "requests": 103,
+          "blocked": 13,
+          "bytesOut": 158714,
+          "bytesIn": 1418228
+        },
+        "cdn-rp-zap-ssr-prod.zapimoveis.com.br": {
+          "requests": 61,
+          "blocked": 0,
+          "bytesOut": 60996,
+          "bytesIn": 1471284
+        },
+        "accounts.google.com": {
+          "requests": 25,
+          "blocked": 0,
+          "bytesOut": 10259,
+          "bytesIn": 1318762
+        },
+        "resizedimgs.zapimoveis.com.br": {
+          "requests": 90,
+          "blocked": 0,
+          "bytesOut": 113475,
+          "bytesIn": 1164720
+        },
+        "resizedimgs.vivareal.com": {
+          "requests": 90,
+          "blocked": 0,
+          "bytesOut": 84470,
+          "bytesIn": 1167075
+        },
+        "cdn-rp-vivareal-ssr-prod.vivareal.com.br": {
+          "requests": 55,
+          "blocked": 0,
+          "bytesOut": 56559,
+          "bytesIn": 1139174
+        },
+        "landscape-api.loft.com.br": {
+          "requests": 16,
+          "blocked": 0,
+          "bytesOut": 9203,
+          "bytesIn": 844979
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 51,
+          "blocked": 0,
+          "bytesOut": 24921,
+          "bytesIn": 521198
+        },
+        "connect.facebook.net": {
+          "requests": 5,
+          "blocked": 0,
+          "bytesOut": 7433,
+          "bytesIn": 424569
+        }
+      },
+      "porTipo": {
+        "script": {
+          "requests": 3258,
+          "blocked": 0,
+          "bytesOut": 2585374,
+          "bytesIn": 54647192
+        },
+        "stylesheet": {
+          "requests": 1204,
+          "blocked": 0,
+          "bytesOut": 1024532,
+          "bytesIn": 5631436
+        },
+        "node-fetch": {
+          "requests": 87,
+          "blocked": 0,
+          "bytesOut": 37836,
+          "bytesIn": 4275287
+        },
+        "document": {
+          "requests": 117,
+          "blocked": 0,
+          "bytesOut": 126515,
+          "bytesIn": 3110490
+        },
+        "image": {
+          "requests": 295,
+          "blocked": 2768,
+          "bytesOut": 308600,
+          "bytesIn": 2480155
+        },
+        "fetch": {
+          "requests": 242,
+          "blocked": 0,
+          "bytesOut": 308394,
+          "bytesIn": 379869
+        },
+        "font": {
+          "requests": 18,
+          "blocked": 88,
+          "bytesOut": 13402,
+          "bytesIn": 489422
+        },
+        "xhr": {
+          "requests": 117,
+          "blocked": 0,
+          "bytesOut": 296291,
+          "bytesIn": 101035
+        },
+        "other": {
+          "requests": 12,
+          "blocked": 0,
+          "bytesOut": 5400,
+          "bytesIn": 276804
+        },
+        "ping": {
+          "requests": 52,
+          "blocked": 0,
+          "bytesOut": 164789,
+          "bytesIn": 24238
+        }
+      }
+    },
+    {
+      "coletor": "ss_jb_b",
+      "grupo": "SSJB",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 124,
+      "anuncios": 4,
+      "requests": 198,
+      "bloqueados": 4019,
+      "cacheHits": 0,
+      "bytesOut": 155944,
+      "bytesIn": 8157787,
+      "fioBytesOut": 256610,
+      "fioBytesIn": 8352952,
+      "topHosts": {
+        "correiobraziliense.lugarcerto.com.br": {
+          "requests": 82,
+          "blocked": 0,
+          "bytesOut": 32104,
+          "bytesIn": 3993514
+        },
+        "www.chavesnamao.com.br": {
+          "requests": 34,
+          "blocked": 114,
+          "bytesOut": 41771,
+          "bytesIn": 1460298
+        },
+        "www.casamineira.com.br": {
+          "requests": 15,
+          "blocked": 0,
+          "bytesOut": 12448,
+          "bytesIn": 1371381
+        },
+        "landscape-api.loft.com.br": {
+          "requests": 16,
+          "blocked": 0,
+          "bytesOut": 9203,
+          "bytesIn": 844979
+        },
+        "glue-api.zapimoveis.com.br": {
+          "requests": 21,
+          "blocked": 0,
+          "bytesOut": 9492,
+          "bytesIn": 142869
+        },
+        "glue-api.vivareal.com": {
+          "requests": 21,
+          "blocked": 0,
+          "bytesOut": 9366,
+          "bytesIn": 142230
+        },
+        "www.zapimoveis.com.br": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 20100,
+          "bytesIn": 107553
+        },
+        "www.vivareal.com.br": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 20071,
+          "bytesIn": 93350
+        },
+        "apigw.prod.quintoandar.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 1389,
+          "bytesIn": 1613
+        },
+        "cdn-rp-zap-ssr-prod.zapimoveis.com.br": {
+          "requests": 0,
+          "blocked": 54,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "resizedimgs.zapimoveis.com.br": {
+          "requests": 0,
+          "blocked": 30,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn-zap-ssr-prod.zapimoveis.com.br": {
+          "requests": 0,
+          "blocked": 1,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 15,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 46,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn-rp-vivareal-ssr-prod.vivareal.com.br": {
+          "requests": 0,
+          "blocked": 48,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "node-fetch": {
+          "requests": 99,
+          "blocked": 0,
+          "bytesOut": 42696,
+          "bytesIn": 4840106
+        },
+        "document": {
+          "requests": 48,
+          "blocked": 0,
+          "bytesOut": 36374,
+          "bytesIn": 2999698
+        },
+        "fetch": {
+          "requests": 42,
+          "blocked": 0,
+          "bytesOut": 18858,
+          "bytesIn": 285099
+        },
+        "xhr": {
+          "requests": 3,
+          "blocked": 0,
+          "bytesOut": 52466,
+          "bytesIn": 3883
+        },
+        "script": {
+          "requests": 6,
+          "blocked": 2550,
+          "bytesOut": 5550,
+          "bytesIn": 29001
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 70,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 960,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 439,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      }
+    },
+    {
+      "coletor": "olx",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 225,
+      "anuncios": 171,
+      "requests": 10885,
+      "bloqueados": 5136,
+      "cacheHits": 0,
+      "bytesOut": 18965114,
+      "bytesIn": 626287279,
+      "fioBytesOut": 27042849,
+      "fioBytesIn": 672197908,
+      "topHosts": {
+        "static.olx.com.br": {
+          "requests": 2807,
+          "blocked": 396,
+          "bytesOut": 6645151,
+          "bytesIn": 395311275
+        },
+        "www.googletagmanager.com": {
+          "requests": 434,
+          "blocked": 5,
+          "bytesOut": 166970,
+          "bytesIn": 69626477
+        },
+        "micro.rubiconproject.com": {
+          "requests": 193,
+          "blocked": 0,
+          "bytesOut": 77033,
+          "bytesIn": 27033819
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 565,
+          "blocked": 0,
+          "bytesOut": 407016,
+          "bytesIn": 23562057
+        },
+        "df.olx.com.br": {
+          "requests": 461,
+          "blocked": 0,
+          "bytesOut": 845359,
+          "bytesIn": 18631906
+        },
+        "www.datadoghq-browser-agent.com": {
+          "requests": 197,
+          "blocked": 0,
+          "bytesOut": 78235,
+          "bytesIn": 10476881
+        },
+        "cdn.taboola.com": {
+          "requests": 182,
+          "blocked": 239,
+          "bytesOut": 79244,
+          "bytesIn": 9201352
+        },
+        "cdn.track.olx.com.br": {
+          "requests": 300,
+          "blocked": 0,
+          "bytesOut": 425686,
+          "bytesIn": 7952648
+        },
+        "connect.facebook.net": {
+          "requests": 81,
+          "blocked": 10,
+          "bytesOut": 32586,
+          "bytesIn": 7784033
+        },
+        "pagead2.googlesyndication.com": {
+          "requests": 477,
+          "blocked": 39,
+          "bytesOut": 223125,
+          "bytesIn": 7153762
+        },
+        "analytics.tiktok.com": {
+          "requests": 171,
+          "blocked": 0,
+          "bytesOut": 298724,
+          "bytesIn": 4105744
+        },
+        "cdn.hypr.mobi": {
+          "requests": 195,
+          "blocked": 8,
+          "bytesOut": 661118,
+          "bytesIn": 3726755
+        },
+        "launchpad.privacymanager.io": {
+          "requests": 99,
+          "blocked": 0,
+          "bytesOut": 39859,
+          "bytesIn": 4214912
+        },
+        "search-microfrontends.olx.com.br": {
+          "requests": 260,
+          "blocked": 0,
+          "bytesOut": 963774,
+          "bytesIn": 3189289
+        },
+        "tag.goadopt.io": {
+          "requests": 44,
+          "blocked": 0,
+          "bytesOut": 27220,
+          "bytesIn": 3235789
+        }
+      },
+      "porTipo": {
+        "script": {
+          "requests": 6972,
+          "blocked": 0,
+          "bytesOut": 10084360,
+          "bytesIn": 596722999
+        },
+        "document": {
+          "requests": 582,
+          "blocked": 0,
+          "bytesOut": 1119040,
+          "bytesIn": 20574206
+        },
+        "fetch": {
+          "requests": 1833,
+          "blocked": 0,
+          "bytesOut": 3204783,
+          "bytesIn": 4037921
+        },
+        "stylesheet": {
+          "requests": 722,
+          "blocked": 0,
+          "bytesOut": 1243276,
+          "bytesIn": 3379281
+        },
+        "ping": {
+          "requests": 379,
+          "blocked": 0,
+          "bytesOut": 2796179,
+          "bytesIn": 120132
+        },
+        "other": {
+          "requests": 53,
+          "blocked": 0,
+          "bytesOut": 25795,
+          "bytesIn": 1061401
+        },
+        "xhr": {
+          "requests": 344,
+          "blocked": 0,
+          "bytesOut": 491681,
+          "bytesIn": 391339
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 376,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 4760,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      }
+    },
+    {
+      "coletor": "olx",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 160,
+      "anuncios": 171,
+      "requests": 253,
+      "bloqueados": 5472,
+      "cacheHits": 0,
+      "bytesOut": 234625,
+      "bytesIn": 19521231,
+      "fioBytesOut": 792544,
+      "fioBytesIn": 20582557,
+      "topHosts": {
+        "df.olx.com.br": {
+          "requests": 226,
+          "blocked": 0,
+          "bytesOut": 188550,
+          "bytesIn": 17568646
+        },
+        "www.olx.com.br": {
+          "requests": 27,
+          "blocked": 54,
+          "bytesOut": 46075,
+          "bytesIn": 1952585
+        },
+        "static.olx.com.br": {
+          "requests": 0,
+          "blocked": 2680,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "img.olx.com.br": {
+          "requests": 0,
+          "blocked": 866,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 198,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "pub.olx.com.br": {
+          "requests": 0,
+          "blocked": 198,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "launchpad-wrapper.privacymanager.io": {
+          "requests": 0,
+          "blocked": 27,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 0,
+          "blocked": 198,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "micro.rubiconproject.com": {
+          "requests": 0,
+          "blocked": 198,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn.track.olx.com.br": {
+          "requests": 0,
+          "blocked": 198,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "fonts.googleapis.com": {
+          "requests": 0,
+          "blocked": 171,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "dsapega.olx.com.br": {
+          "requests": 0,
+          "blocked": 171,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.datadoghq-browser-agent.com": {
+          "requests": 0,
+          "blocked": 171,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "sb.scorecardresearch.com": {
+          "requests": 0,
+          "blocked": 171,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 171,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "document": {
+          "requests": 198,
+          "blocked": 0,
+          "bytesOut": 142917,
+          "bytesIn": 19488698
+        },
+        "script": {
+          "requests": 55,
+          "blocked": 3654,
+          "bytesOut": 91708,
+          "bytesIn": 32533
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 27,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 648,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 1143,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      },
+      "nota": "execução sem bloqueio refeita isoladamente (a 1ª, em paralelo com dfimoveis/imovelweb, travou o Chromium: Target crashed / Invalid InterceptionId, 720 MB baixados em 587 s)"
+    },
+    {
+      "coletor": "dfimoveis",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 1108,
+      "anuncios": 100,
+      "requests": 22067,
+      "bloqueados": 221,
+      "cacheHits": 0,
+      "bytesOut": 59746168,
+      "bytesIn": 593928861,
+      "fioBytesOut": 55904153,
+      "fioBytesIn": 624200379,
+      "topHosts": {
+        "img.dfimoveis.com.br": {
+          "requests": 3808,
+          "blocked": 16,
+          "bytesOut": 2863950,
+          "bytesIn": 126630713
+        },
+        "www.dfimoveis.com.br": {
+          "requests": 9313,
+          "blocked": 8,
+          "bytesOut": 42083881,
+          "bytesIn": 65881091
+        },
+        "www.gstatic.com": {
+          "requests": 377,
+          "blocked": 1,
+          "bytesOut": 153279,
+          "bytesIn": 97122059
+        },
+        "www.googletagmanager.com": {
+          "requests": 380,
+          "blocked": 0,
+          "bytesOut": 135429,
+          "bytesIn": 64936542
+        },
+        "cdn.boxicons.com": {
+          "requests": 352,
+          "blocked": 3,
+          "bytesOut": 146525,
+          "bytesIn": 64146428
+        },
+        "cdn.jsdelivr.net": {
+          "requests": 452,
+          "blocked": 2,
+          "bytesOut": 199111,
+          "bytesIn": 44005253
+        },
+        "challenges.cloudflare.com": {
+          "requests": 195,
+          "blocked": 39,
+          "bytesOut": 3819308,
+          "bytesIn": 31274298
+        },
+        "connect.facebook.net": {
+          "requests": 222,
+          "blocked": 0,
+          "bytesOut": 82946,
+          "bytesIn": 26280420
+        },
+        "maps.googleapis.com": {
+          "requests": 365,
+          "blocked": 0,
+          "bytesOut": 154343,
+          "bytesIn": 12278290
+        },
+        "accounts.google.com": {
+          "requests": 121,
+          "blocked": 0,
+          "bytesOut": 43481,
+          "bytesIn": 11919941
+        },
+        "unicons.iconscout.com": {
+          "requests": 1350,
+          "blocked": 15,
+          "bytesOut": 625630,
+          "bytesIn": 9571023
+        },
+        "www.youtube.com": {
+          "requests": 74,
+          "blocked": 5,
+          "bytesOut": 80947,
+          "bytesIn": 8327368
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 184,
+          "blocked": 0,
+          "bytesOut": 170552,
+          "bytesIn": 5193479
+        },
+        "fonts.gstatic.com": {
+          "requests": 210,
+          "blocked": 11,
+          "bytesOut": 92505,
+          "bytesIn": 5088720
+        },
+        "z.clarity.ms": {
+          "requests": 227,
+          "blocked": 0,
+          "bytesOut": 4988403,
+          "bytesIn": 74114
+        }
+      },
+      "porTipo": {
+        "fetch": {
+          "requests": 9259,
+          "blocked": 0,
+          "bytesOut": 41249654,
+          "bytesIn": 278220984
+        },
+        "script": {
+          "requests": 5842,
+          "blocked": 0,
+          "bytesOut": 3201912,
+          "bytesIn": 247523805
+        },
+        "xhr": {
+          "requests": 1259,
+          "blocked": 0,
+          "bytesOut": 11618558,
+          "bytesIn": 30286002
+        },
+        "other": {
+          "requests": 257,
+          "blocked": 0,
+          "bytesOut": 150591,
+          "bytesIn": 19281553
+        },
+        "stylesheet": {
+          "requests": 1286,
+          "blocked": 0,
+          "bytesOut": 699287,
+          "bytesIn": 11172558
+        },
+        "document": {
+          "requests": 479,
+          "blocked": 0,
+          "bytesOut": 1253787,
+          "bytesIn": 6526579
+        },
+        "image": {
+          "requests": 2729,
+          "blocked": 190,
+          "bytesOut": 1147691,
+          "bytesIn": 916827
+        },
+        "font": {
+          "requests": 955,
+          "blocked": 31,
+          "bytesOut": 424210,
+          "bytesIn": 0
+        },
+        "ping": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 478,
+          "bytesIn": 553
+        }
+      }
+    },
+    {
+      "coletor": "dfimoveis",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 190,
+      "anuncios": 100,
+      "requests": 345,
+      "bloqueados": 6190,
+      "cacheHits": 194,
+      "bytesOut": 194641,
+      "bytesIn": 6950256,
+      "fioBytesOut": 225347,
+      "fioBytesIn": 7267274,
+      "topHosts": {
+        "www.dfimoveis.com.br": {
+          "requests": 239,
+          "blocked": 3378,
+          "bytesOut": 155702,
+          "bytesIn": 4971213
+        },
+        "www.gstatic.com": {
+          "requests": 3,
+          "blocked": 0,
+          "bytesOut": 1350,
+          "bytesIn": 1068223
+        },
+        "cdn.jsdelivr.net": {
+          "requests": 3,
+          "blocked": 118,
+          "bytesOut": 1089,
+          "bytesIn": 806787
+        },
+        "www.google.com": {
+          "requests": 100,
+          "blocked": 0,
+          "bytesOut": 36500,
+          "bytesIn": 104033
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 118,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "unicons.iconscout.com": {
+          "requests": 0,
+          "blocked": 118,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "tags.creativecdn.com": {
+          "requests": 0,
+          "blocked": 118,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn.boxicons.com": {
+          "requests": 0,
+          "blocked": 118,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "fonts.googleapis.com": {
+          "requests": 0,
+          "blocked": 118,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 0,
+          "blocked": 18,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "accounts.google.com": {
+          "requests": 0,
+          "blocked": 118,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "img.dfimoveis.com.br": {
+          "requests": 0,
+          "blocked": 1449,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 208,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.clarity.ms": {
+          "requests": 0,
+          "blocked": 104,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "unpkg.com": {
+          "requests": 0,
+          "blocked": 100,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "document": {
+          "requests": 118,
+          "blocked": 7,
+          "bytesOut": 69380,
+          "bytesIn": 4134607
+        },
+        "script": {
+          "requests": 108,
+          "blocked": 3473,
+          "bytesOut": 40085,
+          "bytesIn": 1989068
+        },
+        "other": {
+          "requests": 118,
+          "blocked": 0,
+          "bytesOut": 67979,
+          "bytesIn": 826000
+        },
+        "xhr": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 17197,
+          "bytesIn": 581
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 1026,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 1684,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      },
+      "nota": "refeito com cache do JS versionado do reCAPTCHA (gstatic.com/recaptcha/releases/): antes 41.5 MB de entrada (35.6 MB = reCAPTCHA baixado 100x), agora 6.95 MB"
+    },
+    {
+      "coletor": "imovelweb",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 415,
+      "anuncios": 78,
+      "requests": 3515,
+      "bloqueados": 0,
+      "cacheHits": 0,
+      "bytesOut": 6920205,
+      "bytesIn": 44496926,
+      "fioBytesOut": 8625546,
+      "fioBytesIn": 53149160,
+      "topHosts": {
+        "challenges.cloudflare.com": {
+          "requests": 103,
+          "blocked": 0,
+          "bytesOut": 2058969,
+          "bytesIn": 13890841
+        },
+        "imgbr.imovelwebcdn.com": {
+          "requests": 476,
+          "blocked": 0,
+          "bytesOut": 439460,
+          "bytesIn": 11201338
+        },
+        "www.imovelweb.com.br": {
+          "requests": 102,
+          "blocked": 0,
+          "bytesOut": 350312,
+          "bytesIn": 7223723
+        },
+        "img10.naventcdn.com": {
+          "requests": 344,
+          "blocked": 0,
+          "bytesOut": 295583,
+          "bytesIn": 5035800
+        },
+        "www.wimoveis.com.br": {
+          "requests": 57,
+          "blocked": 0,
+          "bytesOut": 271710,
+          "bytesIn": 1493200
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 45,
+          "blocked": 0,
+          "bytesOut": 122450,
+          "bytesIn": 1128789
+        },
+        "www.googletagmanager.com": {
+          "requests": 13,
+          "blocked": 0,
+          "bytesOut": 5559,
+          "bytesIn": 1071465
+        },
+        "s0.2mdn.net": {
+          "requests": 110,
+          "blocked": 0,
+          "bytesOut": 58056,
+          "bytesIn": 438913
+        },
+        "pagead2.googlesyndication.com": {
+          "requests": 182,
+          "blocked": 0,
+          "bytesOut": 104407,
+          "bytesIn": 302824
+        },
+        "tpc.googlesyndication.com": {
+          "requests": 51,
+          "blocked": 0,
+          "bytesOut": 14737,
+          "bytesIn": 325136
+        },
+        "rtb-csync.smartadserver.com": {
+          "requests": 97,
+          "blocked": 0,
+          "bytesOut": 192135,
+          "bytesIn": 55220
+        },
+        "tags.refinery89.com": {
+          "requests": 10,
+          "blocked": 0,
+          "bytesOut": 3955,
+          "bytesIn": 214974
+        },
+        "accounts.google.com": {
+          "requests": 8,
+          "blocked": 0,
+          "bytesOut": 2676,
+          "bytesIn": 204986
+        },
+        "bam.nr-data.net": {
+          "requests": 61,
+          "blocked": 0,
+          "bytesOut": 177621,
+          "bytesIn": 22894
+        },
+        "cm.g.doubleclick.net": {
+          "requests": 114,
+          "blocked": 0,
+          "bytesOut": 135020,
+          "bytesIn": 47385
+        }
+      },
+      "porTipo": {
+        "image": {
+          "requests": 1774,
+          "blocked": 0,
+          "bytesOut": 2032187,
+          "bytesIn": 13997557
+        },
+        "xhr": {
+          "requests": 152,
+          "blocked": 0,
+          "bytesOut": 2235976,
+          "bytesIn": 11893655
+        },
+        "fetch": {
+          "requests": 575,
+          "blocked": 0,
+          "bytesOut": 1691505,
+          "bytesIn": 9034964
+        },
+        "script": {
+          "requests": 534,
+          "blocked": 0,
+          "bytesOut": 306703,
+          "bytesIn": 6018303
+        },
+        "document": {
+          "requests": 375,
+          "blocked": 0,
+          "bytesOut": 581130,
+          "bytesIn": 2850646
+        },
+        "font": {
+          "requests": 36,
+          "blocked": 0,
+          "bytesOut": 19641,
+          "bytesIn": 465262
+        },
+        "stylesheet": {
+          "requests": 53,
+          "blocked": 0,
+          "bytesOut": 36581,
+          "bytesIn": 184244
+        },
+        "other": {
+          "requests": 8,
+          "blocked": 0,
+          "bytesOut": 4686,
+          "bytesIn": 48434
+        },
+        "ping": {
+          "requests": 8,
+          "blocked": 0,
+          "bytesOut": 11796,
+          "bytesIn": 3861
+        }
+      }
+    },
+    {
+      "coletor": "imovelweb",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 280,
+      "anuncios": 78,
+      "requests": 123,
+      "bloqueados": 697,
+      "cacheHits": 3,
+      "bytesOut": 170696,
+      "bytesIn": 8786489,
+      "fioBytesOut": 258811,
+      "fioBytesIn": 9493612,
+      "topHosts": {
+        "www.imovelweb.com.br": {
+          "requests": 95,
+          "blocked": 0,
+          "bytesOut": 131136,
+          "bytesIn": 7878580
+        },
+        "www.wimoveis.com.br": {
+          "requests": 21,
+          "blocked": 0,
+          "bytesOut": 36022,
+          "bytesIn": 823198
+        },
+        "web.webpushs.com": {
+          "requests": 2,
+          "blocked": 4,
+          "bytesOut": 779,
+          "bytesIn": 77039
+        },
+        "img10.naventcdn.com": {
+          "requests": 4,
+          "blocked": 262,
+          "bytesOut": 2368,
+          "bytesIn": 4313
+        },
+        "cdn-lib.quintoandar.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 391,
+          "bytesIn": 3359
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 4,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "accounts.google.com": {
+          "requests": 0,
+          "blocked": 4,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "js-agent.newrelic.com": {
+          "requests": 0,
+          "blocked": 8,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "imgbr.imovelwebcdn.com": {
+          "requests": 0,
+          "blocked": 411,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn.amplitude.com": {
+          "requests": 0,
+          "blocked": 2,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 2,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "fetch": {
+          "requests": 102,
+          "blocked": 0,
+          "bytesOut": 124154,
+          "bytesIn": 8251621
+        },
+        "document": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 2345,
+          "bytesIn": 427236
+        },
+        "script": {
+          "requests": 7,
+          "blocked": 181,
+          "bytesOut": 4165,
+          "bytesIn": 99810
+        },
+        "xhr": {
+          "requests": 6,
+          "blocked": 0,
+          "bytesOut": 37664,
+          "bytesIn": 3509
+        },
+        "other": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 2368,
+          "bytesIn": 4313
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 486,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 24,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 6,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [
+          "https://www.imovelweb.com.br/propriedades/qs-27-riacho-fundo-ii-2-quartos-escritorio-3042856616.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-para-aluguel-em-taguatinga-sul-2992655054.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-2-quartos-para-locacao-taguatinga-norte-3046663738.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-para-aluguel-riacho-fundo-ii-2-quartos-3044314054.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-com-1-dormitorio-para-alugar-55-m-3043993168.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-taguatinga-sul-3042121106.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-para-locacao-quadra-04-conjunto-01-3020966228.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-de-50-m-com-2-quartos-para-aluguel-no-3046876593.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-com-2-dormitorios-para-alugar-46-m-por-3042055616.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-com-1-dormitorio-para-alugar-43-m-por-r$-3036313162.html",
+          "https://www.wimoveis.com.br/propriedades/imoveis-no-riacho-fundo-i-3043013923.html"
+        ],
+        "soComBloqueio": [
+          "https://www.imovelweb.com.br/propriedades/apartamento-2-quartos-para-locacao-taguatinga-norte-3046663738.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-com-1-dormitorio-para-alugar-55-m-3043993168.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-para-aluguel-riacho-fundo-ii-2-quartos-3044314054.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-taguatinga-sul-3042121106.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-de-50-m-com-2-quartos-para-aluguel-no-3046876593.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-para-locacao-quadra-04-conjunto-01-3020966228.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-com-2-dormitorios-para-alugar-46-m-por-3042055616.html",
+          "https://www.imovelweb.com.br/propriedades/imoveis-no-riacho-fundo-i-3043013923.html",
+          "https://www.imovelweb.com.br/propriedades/apartamento-com-1-dormitorio-para-alugar-43-m-por-r$-3036313162.html",
+          "https://www.wimoveis.com.br/propriedades/qs-27-riacho-fundo-ii-2-quartos-escritorio-3042856616.html",
+          "https://www.wimoveis.com.br/propriedades/apartamento-para-aluguel-em-taguatinga-sul-2992655054.html"
+        ]
+      }
+    },
+    {
+      "coletor": "zap_vivareal",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 27,
+      "anuncios": 114,
+      "requests": 713,
+      "bloqueados": 0,
+      "cacheHits": 0,
+      "bytesOut": 928919,
+      "bytesIn": 10436215,
+      "fioBytesOut": 1159434,
+      "fioBytesIn": 12082809,
+      "topHosts": {
+        "www.googletagmanager.com": {
+          "requests": 18,
+          "blocked": 0,
+          "bytesOut": 11259,
+          "bytesIn": 2675424
+        },
+        "cdn-rp-zap-ssr-prod.zapimoveis.com.br": {
+          "requests": 61,
+          "blocked": 0,
+          "bytesOut": 60996,
+          "bytesIn": 1471321
+        },
+        "cdn-rp-vivareal-ssr-prod.vivareal.com.br": {
+          "requests": 55,
+          "blocked": 0,
+          "bytesOut": 56559,
+          "bytesIn": 1139213
+        },
+        "resizedimgs.zapimoveis.com.br": {
+          "requests": 90,
+          "blocked": 0,
+          "bytesOut": 113865,
+          "bytesIn": 946871
+        },
+        "resizedimgs.vivareal.com": {
+          "requests": 90,
+          "blocked": 0,
+          "bytesOut": 84585,
+          "bytesIn": 952732
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 18,
+          "blocked": 0,
+          "bytesOut": 22776,
+          "bytesIn": 595817
+        },
+        "connect.facebook.net": {
+          "requests": 5,
+          "blocked": 0,
+          "bytesOut": 7433,
+          "bytesIn": 424604
+        },
+        "analytics.tiktok.com": {
+          "requests": 20,
+          "blocked": 0,
+          "bytesOut": 37093,
+          "bytesIn": 333169
+        },
+        "tag.goadopt.io": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 2688,
+          "bytesIn": 288576
+        },
+        "pagead2.googlesyndication.com": {
+          "requests": 26,
+          "blocked": 0,
+          "bytesOut": 14328,
+          "bytesIn": 261095
+        },
+        "fundingchoicesmessages.google.com": {
+          "requests": 28,
+          "blocked": 0,
+          "bytesOut": 31728,
+          "bytesIn": 161476
+        },
+        "cdn.mouseflow.com": {
+          "requests": 2,
+          "blocked": 0,
+          "bytesOut": 1382,
+          "bytesIn": 131967
+        },
+        "tpc.googlesyndication.com": {
+          "requests": 12,
+          "blocked": 0,
+          "bytesOut": 6463,
+          "bytesIn": 125398
+        },
+        "js.appboycdn.com": {
+          "requests": 2,
+          "blocked": 0,
+          "bytesOut": 1312,
+          "bytesIn": 129853
+        },
+        "www.zapimoveis.com.br": {
+          "requests": 6,
+          "blocked": 0,
+          "bytesOut": 27936,
+          "bytesIn": 96960
+        }
+      },
+      "porTipo": {
+        "script": {
+          "requests": 179,
+          "blocked": 0,
+          "bytesOut": 166162,
+          "bytesIn": 7365523
+        },
+        "image": {
+          "requests": 294,
+          "blocked": 0,
+          "bytesOut": 309684,
+          "bytesIn": 2047587
+        },
+        "font": {
+          "requests": 18,
+          "blocked": 0,
+          "bytesOut": 13402,
+          "bytesIn": 489442
+        },
+        "fetch": {
+          "requests": 98,
+          "blocked": 0,
+          "bytesOut": 141582,
+          "bytesIn": 120883
+        },
+        "document": {
+          "requests": 23,
+          "blocked": 0,
+          "bytesOut": 37995,
+          "bytesIn": 195205
+        },
+        "ping": {
+          "requests": 40,
+          "blocked": 0,
+          "bytesOut": 142065,
+          "bytesIn": 21391
+        },
+        "xhr": {
+          "requests": 45,
+          "blocked": 0,
+          "bytesOut": 103692,
+          "bytesIn": 45846
+        },
+        "stylesheet": {
+          "requests": 14,
+          "blocked": 0,
+          "bytesOut": 13017,
+          "bytesIn": 104204
+        },
+        "other": {
+          "requests": 2,
+          "blocked": 0,
+          "bytesOut": 1320,
+          "bytesIn": 46134
+        }
+      }
+    },
+    {
+      "coletor": "zap_vivareal",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 22,
+      "anuncios": 114,
+      "requests": 16,
+      "bloqueados": 168,
+      "cacheHits": 0,
+      "bytesOut": 43883,
+      "bytesIn": 242167,
+      "fioBytesOut": 78435,
+      "fioBytesIn": 297848,
+      "topHosts": {
+        "www.zapimoveis.com.br": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 20163,
+          "bytesIn": 96698
+        },
+        "www.vivareal.com.br": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 20128,
+          "bytesIn": 84924
+        },
+        "glue-api.vivareal.com": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 1784,
+          "bytesIn": 30393
+        },
+        "glue-api.zapimoveis.com.br": {
+          "requests": 4,
+          "blocked": 0,
+          "bytesOut": 1808,
+          "bytesIn": 30152
+        },
+        "cdn-rp-zap-ssr-prod.zapimoveis.com.br": {
+          "requests": 0,
+          "blocked": 54,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "resizedimgs.zapimoveis.com.br": {
+          "requests": 0,
+          "blocked": 30,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn-zap-ssr-prod.zapimoveis.com.br": {
+          "requests": 0,
+          "blocked": 1,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 2,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 2,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn-rp-vivareal-ssr-prod.vivareal.com.br": {
+          "requests": 0,
+          "blocked": 48,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "resizedimgs.vivareal.com": {
+          "requests": 0,
+          "blocked": 30,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn-vivareal-ssr-prod.vivareal.com.br": {
+          "requests": 0,
+          "blocked": 1,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "document": {
+          "requests": 2,
+          "blocked": 0,
+          "bytesOut": 1012,
+          "bytesIn": 159119
+        },
+        "fetch": {
+          "requests": 8,
+          "blocked": 0,
+          "bytesOut": 3592,
+          "bytesIn": 60545
+        },
+        "xhr": {
+          "requests": 2,
+          "blocked": 0,
+          "bytesOut": 35210,
+          "bytesIn": 2581
+        },
+        "script": {
+          "requests": 4,
+          "blocked": 78,
+          "bytesOut": 4069,
+          "bytesIn": 19922
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 18,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 10,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 62,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      }
+    },
+    {
+      "coletor": "quintoandar",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 5,
+      "anuncios": 5,
+      "requests": 6,
+      "bloqueados": 0,
+      "cacheHits": 0,
+      "bytesOut": 4707,
+      "bytesIn": 226157,
+      "fioBytesOut": 10191,
+      "fioBytesIn": 239863,
+      "topHosts": {
+        "www.quintoandar.com.br": {
+          "requests": 5,
+          "blocked": 0,
+          "bytesOut": 3323,
+          "bytesIn": 222026
+        },
+        "apigw.prod.quintoandar.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 1384,
+          "bytesIn": 4131
+        }
+      },
+      "porTipo": {
+        "node-fetch": {
+          "requests": 6,
+          "blocked": 0,
+          "bytesOut": 4707,
+          "bytesIn": 226157
+        }
+      }
+    },
+    {
+      "coletor": "quintoandar",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 4,
+      "anuncios": 5,
+      "requests": 6,
+      "bloqueados": 0,
+      "cacheHits": 0,
+      "bytesOut": 4707,
+      "bytesIn": 226080,
+      "fioBytesOut": 13047,
+      "fioBytesIn": 239764,
+      "topHosts": {
+        "www.quintoandar.com.br": {
+          "requests": 5,
+          "blocked": 0,
+          "bytesOut": 3323,
+          "bytesIn": 221949
+        },
+        "apigw.prod.quintoandar.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 1384,
+          "bytesIn": 4131
+        }
+      },
+      "porTipo": {
+        "node-fetch": {
+          "requests": 6,
+          "blocked": 0,
+          "bytesOut": 4707,
+          "bytesIn": 226080
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      }
+    },
+    {
+      "coletor": "chaves_mercadolivre",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 11,
+      "anuncios": 5,
+      "requests": 1478,
+      "bloqueados": 82,
+      "cacheHits": 0,
+      "bytesOut": 1040737,
+      "bytesIn": 14265590,
+      "fioBytesOut": 1665412,
+      "fioBytesIn": 15893546,
+      "topHosts": {
+        "cdn.chavesnamao.com.br": {
+          "requests": 1403,
+          "blocked": 17,
+          "bytesOut": 967523,
+          "bytesIn": 12900892
+        },
+        "www.chavesnamao.com.br": {
+          "requests": 49,
+          "blocked": 62,
+          "bytesOut": 59271,
+          "bytesIn": 1080382
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 17,
+          "blocked": 0,
+          "bytesOut": 7888,
+          "bytesIn": 173569
+        },
+        "http2.mlstatic.com": {
+          "requests": 6,
+          "blocked": 3,
+          "bytesOut": 4074,
+          "bytesIn": 95436
+        },
+        "www.mercadolivre.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 1074,
+          "bytesIn": 14163
+        },
+        "api.mercadolibre.com": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 357,
+          "bytesIn": 890
+        },
+        "imoveis.mercadolivre.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 550,
+          "bytesIn": 258
+        }
+      },
+      "porTipo": {
+        "script": {
+          "requests": 926,
+          "blocked": 0,
+          "bytesOut": 634063,
+          "bytesIn": 10624445
+        },
+        "stylesheet": {
+          "requests": 519,
+          "blocked": 0,
+          "bytesOut": 358963,
+          "bytesIn": 2797680
+        },
+        "document": {
+          "requests": 20,
+          "blocked": 0,
+          "bytesOut": 15145,
+          "bytesIn": 833555
+        },
+        "xhr": {
+          "requests": 9,
+          "blocked": 0,
+          "bytesOut": 29947,
+          "bytesIn": 2935
+        },
+        "fetch": {
+          "requests": 3,
+          "blocked": 0,
+          "bytesOut": 2262,
+          "bytesIn": 6085
+        },
+        "node-fetch": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 357,
+          "bytesIn": 890
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 62,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 20,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      }
+    },
+    {
+      "coletor": "chaves_mercadolivre",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 9,
+      "anuncios": 5,
+      "requests": 22,
+      "bloqueados": 1153,
+      "cacheHits": 0,
+      "bytesOut": 32666,
+      "bytesIn": 787964,
+      "fioBytesOut": 61529,
+      "fioBytesIn": 842146,
+      "topHosts": {
+        "www.chavesnamao.com.br": {
+          "requests": 19,
+          "blocked": 52,
+          "bytesOut": 30685,
+          "bytesIn": 772644
+        },
+        "www.mercadolivre.com.br": {
+          "requests": 1,
+          "blocked": 1,
+          "bytesOut": 1074,
+          "bytesIn": 14172
+        },
+        "api.mercadolibre.com": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 357,
+          "bytesIn": 890
+        },
+        "imoveis.mercadolivre.com.br": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 550,
+          "bytesIn": 258
+        },
+        "cdn.chavesnamao.com.br": {
+          "requests": 0,
+          "blocked": 1072,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 16,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "http2.mlstatic.com": {
+          "requests": 0,
+          "blocked": 11,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "matt.mercadolivre.com.br": {
+          "requests": 0,
+          "blocked": 1,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "document": {
+          "requests": 18,
+          "blocked": 0,
+          "bytesOut": 13506,
+          "bytesIn": 775724
+        },
+        "xhr": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 17314,
+          "bytesIn": 1290
+        },
+        "script": {
+          "requests": 2,
+          "blocked": 711,
+          "bytesOut": 1489,
+          "bytesIn": 10060
+        },
+        "node-fetch": {
+          "requests": 1,
+          "blocked": 0,
+          "bytesOut": 357,
+          "bytesIn": 890
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 36,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 402,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 3,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "ping": {
+          "requests": 0,
+          "blocked": 1,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      }
+    },
+    {
+      "coletor": "outros",
+      "grupo": "DF",
+      "modo": "sem",
+      "exitCode": 0,
+      "segundos": 63,
+      "anuncios": 35,
+      "requests": 3429,
+      "bloqueados": 13284,
+      "cacheHits": 0,
+      "bytesOut": 2964035,
+      "bytesIn": 74946582,
+      "fioBytesOut": 2011860,
+      "fioBytesIn": 77435439,
+      "topHosts": {
+        "img10.naventcdn.com": {
+          "requests": 1949,
+          "blocked": 11474,
+          "bytesOut": 1302347,
+          "bytesIn": 31077266
+        },
+        "www.googletagmanager.com": {
+          "requests": 105,
+          "blocked": 11,
+          "bytesOut": 45704,
+          "bytesIn": 19162691
+        },
+        "securepubads.g.doubleclick.net": {
+          "requests": 161,
+          "blocked": 0,
+          "bytesOut": 82587,
+          "bytesIn": 9743408
+        },
+        "www.casamineira.com.br": {
+          "requests": 474,
+          "blocked": 22,
+          "bytesOut": 814857,
+          "bytesIn": 3819628
+        },
+        "accounts.google.com": {
+          "requests": 74,
+          "blocked": 0,
+          "bytesOut": 32668,
+          "bytesIn": 3853263
+        },
+        "correiobraziliense.lugarcerto.com.br": {
+          "requests": 40,
+          "blocked": 0,
+          "bytesOut": 15546,
+          "bytesIn": 2074872
+        },
+        "cdn.amplitude.com": {
+          "requests": 38,
+          "blocked": 0,
+          "bytesOut": 18765,
+          "bytesIn": 1072324
+        },
+        "js-agent.newrelic.com": {
+          "requests": 28,
+          "blocked": 0,
+          "bytesOut": 14120,
+          "bytesIn": 951987
+        },
+        "landscape-api.loft.com.br": {
+          "requests": 6,
+          "blocked": 0,
+          "bytesOut": 3317,
+          "bytesIn": 728756
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 65,
+          "blocked": 0,
+          "bytesOut": 32152,
+          "bytesIn": 663489
+        },
+        "pagead2.googlesyndication.com": {
+          "requests": 45,
+          "blocked": 25,
+          "bytesOut": 25978,
+          "bytesIn": 613610
+        },
+        "ep1.adtrafficquality.google": {
+          "requests": 26,
+          "blocked": 16,
+          "bytesOut": 12950,
+          "bytesIn": 359617
+        },
+        "ep2.adtrafficquality.google": {
+          "requests": 52,
+          "blocked": 22,
+          "bytesOut": 28405,
+          "bytesIn": 336579
+        },
+        "api.amplitude.com": {
+          "requests": 98,
+          "blocked": 0,
+          "bytesOut": 287386,
+          "bytesIn": 13329
+        },
+        "cm.g.doubleclick.net": {
+          "requests": 32,
+          "blocked": 29,
+          "bytesOut": 22153,
+          "bytesIn": 219395
+        }
+      },
+      "porTipo": {
+        "script": {
+          "requests": 1848,
+          "blocked": 0,
+          "bytesOut": 1139808,
+          "bytesIn": 63993237
+        },
+        "document": {
+          "requests": 202,
+          "blocked": 0,
+          "bytesOut": 201145,
+          "bytesIn": 4174220
+        },
+        "node-fetch": {
+          "requests": 49,
+          "blocked": 0,
+          "bytesOut": 20155,
+          "bytesIn": 2917188
+        },
+        "stylesheet": {
+          "requests": 533,
+          "blocked": 0,
+          "bytesOut": 366717,
+          "bytesIn": 2512658
+        },
+        "xhr": {
+          "requests": 294,
+          "blocked": 0,
+          "bytesOut": 588047,
+          "bytesIn": 419835
+        },
+        "other": {
+          "requests": 35,
+          "blocked": 0,
+          "bytesOut": 13650,
+          "bytesIn": 807345
+        },
+        "fetch": {
+          "requests": 439,
+          "blocked": 0,
+          "bytesOut": 574146,
+          "bytesIn": 120681
+        },
+        "ping": {
+          "requests": 29,
+          "blocked": 0,
+          "bytesOut": 60367,
+          "bytesIn": 1418
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 13076,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 208,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      }
+    },
+    {
+      "coletor": "outros",
+      "grupo": "DF",
+      "modo": "com",
+      "exitCode": 0,
+      "segundos": 53,
+      "anuncios": 35,
+      "requests": 89,
+      "bloqueados": 1841,
+      "cacheHits": 0,
+      "bytesOut": 55331,
+      "bytesIn": 6552832,
+      "fioBytesOut": 43829,
+      "fioBytesIn": 6611744,
+      "topHosts": {
+        "www.casamineira.com.br": {
+          "requests": 40,
+          "blocked": 0,
+          "bytesOut": 35176,
+          "bytesIn": 3636079
+        },
+        "correiobraziliense.lugarcerto.com.br": {
+          "requests": 40,
+          "blocked": 0,
+          "bytesOut": 15546,
+          "bytesIn": 2074872
+        },
+        "landscape-api.loft.com.br": {
+          "requests": 6,
+          "blocked": 0,
+          "bytesOut": 3317,
+          "bytesIn": 728756
+        },
+        "www.netimoveis.com": {
+          "requests": 3,
+          "blocked": 0,
+          "bytesOut": 1292,
+          "bytesIn": 113125
+        },
+        "imgbr.imovelwebcdn.com": {
+          "requests": 0,
+          "blocked": 282,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "img10.naventcdn.com": {
+          "requests": 0,
+          "blocked": 1331,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "accounts.google.com": {
+          "requests": 0,
+          "blocked": 38,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "cdn.amplitude.com": {
+          "requests": 0,
+          "blocked": 38,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "www.googletagmanager.com": {
+          "requests": 0,
+          "blocked": 38,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "static.cloudflareinsights.com": {
+          "requests": 0,
+          "blocked": 38,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "js-agent.newrelic.com": {
+          "requests": 0,
+          "blocked": 76,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "porTipo": {
+        "document": {
+          "requests": 40,
+          "blocked": 0,
+          "bytesOut": 35176,
+          "bytesIn": 3636079
+        },
+        "node-fetch": {
+          "requests": 49,
+          "blocked": 0,
+          "bytesOut": 20155,
+          "bytesIn": 2916753
+        },
+        "image": {
+          "requests": 0,
+          "blocked": 639,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "stylesheet": {
+          "requests": 0,
+          "blocked": 20,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "font": {
+          "requests": 0,
+          "blocked": 127,
+          "bytesOut": 0,
+          "bytesIn": 0
+        },
+        "script": {
+          "requests": 0,
+          "blocked": 1055,
+          "bytesOut": 0,
+          "bytesIn": 0
+        }
+      },
+      "diff": {
+        "soSemBloqueio": [],
+        "soComBloqueio": []
+      }
+    }
+  ],
+  "estimativasMensais": {
+    "premissas": "30 dias; execuções COM bloqueio (cache de scripts frio); job = soma dos coletores do grupo (em sequência) + 1.5 min de overhead, arredondado p/ cima; tráfego \"fio\" medido via nettop no Mac (HTTP+TLS+TCP).",
+    "porExecucao": {
+      "SSJB": {
+        "coletores": 2,
+        "segundos": 427,
+        "minutosJob": 9,
+        "httpOut": 426506,
+        "httpIn": 15907818,
+        "fioOut": 629118,
+        "fioIn": 16858779
+      },
+      "DF": {
+        "coletores": 7,
+        "segundos": 718,
+        "minutosJob": 14,
+        "httpOut": 736549,
+        "httpIn": 43067019,
+        "fioOut": 1473542,
+        "fioIn": 45334945
+      }
+    },
+    "porExecucaoSemBloqueio": {
+      "SSJB": {
+        "coletores": 2,
+        "segundos": 756,
+        "minutosJob": 15,
+        "httpOut": 22355759,
+        "httpIn": 261339686,
+        "fioOut": 26474255,
+        "fioIn": 292314593
+      },
+      "DF": {
+        "coletores": 7,
+        "segundos": 1854,
+        "minutosJob": 33,
+        "httpOut": 90569885,
+        "httpIn": 1364587610,
+        "fioOut": 96419445,
+        "fioIn": 1455199104
+      }
+    },
+    "cenarios": [
+      {
+        "nome": "(a) ssjb a cada 30 min + df a cada 6 h",
+        "ssjbMin": 30,
+        "dfH": 6,
+        "execSSJB": 1440,
+        "execDF": 120,
+        "minutosActions": 14640,
+        "excedenteSePrivado2000": 12640,
+        "entradaGB": 29.7,
+        "saidaGB": 1.1,
+        "entradaGBsemBloqueio": 595.6,
+        "saidaGBsemBloqueio": 49.7
+      },
+      {
+        "nome": "(b) ssjb a cada 60 min + df a cada 12 h",
+        "ssjbMin": 60,
+        "dfH": 12,
+        "execSSJB": 720,
+        "execDF": 60,
+        "minutosActions": 7320,
+        "excedenteSePrivado2000": 5320,
+        "entradaGB": 14.9,
+        "saidaGB": 0.5,
+        "entradaGBsemBloqueio": 297.8,
+        "saidaGBsemBloqueio": 24.8
+      }
+    ]
+  }
+}

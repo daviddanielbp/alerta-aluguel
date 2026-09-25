@@ -1,0 +1,20 @@
+{
+  "name": "cidades-proximas-unb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "monitor:ssjb": "node monitor/run.js --grupo=ssjb",
+    "monitor:df": "node monitor/run.js --grupo=df",
+    "monitor:seed": "node monitor/run.js --grupo=todos --seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "playwright": "^1.63.0"
+  }
+}

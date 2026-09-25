@@ -1,0 +1,28 @@
+# dependências e segredos
+node_modules/
+.env
+deploy/.deploy.env
+
+# saídas dos crawlers / relatórios locais
+data/
+data_ss/
+*.pdf
+*.xlsx
+relatorio.html
+lista_*.md
+resultado*.json
+resultado*.md
+/geocache.json
+
+# monitor: só vistos.json, geocache.json e execucoes.jsonl de monitor/state/ são versionados
+monitor/state/work/
+monitor/state/logs/
+monitor/state/run.lock
+monitor/state/*.tmp
+monitor/state/telegram.json
+monitor/state/cron.log
+monitor/_runs/
+monitor/_backup_*/
+monitor/.cache_http/
+
+.DS_Store

@@ -1,0 +1,194 @@
+{
+ "71692-335, Brasil": null,
+ "71692-516, Brasil": null,
+ "71692-616, Brasil": null,
+ "71693-006, Brasil": {
+  "lat": -30.8097225,
+  "lon": -53.8958254,
+  "fonte": "71693-006, Brasil"
+ },
+ "Centro, São Sebastião, Distrito Federal": {
+  "lat": -15.904653,
+  "lon": -47.770176,
+  "fonte": "Centro, São Sebastião, Distrito Federal"
+ },
+ "Quadra 102, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.8989551,
+  "lon": -47.7780836,
+  "fonte": "Quadra 102, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal"
+ },
+ "Quadra 104 Conjunto 7, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Quadra 202 Conjunto 6, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Quadra 203 Conjunto 6, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Quadra 5, Vila São José (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Residencial do Bosque, São Sebastião, Distrito Federal": {
+  "lat": -15.908834,
+  "lon": -47.752323,
+  "fonte": "Residencial do Bosque, São Sebastião, Distrito Federal"
+ },
+ "Rua 28, Vila Nova (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9057706,
+  "lon": -47.7589179,
+  "fonte": "Rua 28, Vila Nova (São Sebastião), São Sebastião, Distrito Federal"
+ },
+ "Rua 32, São Sebastião, Distrito Federal": {
+  "lat": -15.897647,
+  "lon": -47.7730435,
+  "fonte": "Rua 32, São Sebastião, Distrito Federal"
+ },
+ "Rua 32, VILA NOVA, SAO SEBASTIAO, São Sebastião, Distrito Federal": {
+  "lat": -15.9055796,
+  "lon": -47.7558644,
+  "fonte": "Rua 32, VILA NOVA, SAO SEBASTIAO, São Sebastião, Distrito Federal"
+ },
+ "Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.900596,
+  "lon": -47.780384,
+  "fonte": "Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal"
+ },
+ "Vila São José (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9139009,
+  "lon": -47.7596145,
+  "fonte": "Vila São José (São Sebastião), São Sebastião, Distrito Federal"
+ },
+ "Vila São José, São Sebastião, Distrito Federal": {
+  "lat": -15.9139009,
+  "lon": -47.7596145,
+  "fonte": "Vila São José, São Sebastião, Distrito Federal"
+ },
+ "cep:71691053": {
+  "cep": "71691-053",
+  "logradouro": "Rua 74",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Centro (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71692100": {
+  "cep": "71692-100",
+  "logradouro": "Quadra 102",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Setor Residencial Oeste (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71692335": {
+  "cep": "71692-335",
+  "logradouro": "Quadra 104 Conjunto 7",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Setor Residencial Oeste (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71692516": {
+  "cep": "71692-516",
+  "logradouro": "Quadra 202 Conjunto 6",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Setor Residencial Oeste (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71692616": {
+  "cep": "71692-616",
+  "logradouro": "Quadra 203 Conjunto 6",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Setor Residencial Oeste (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693006": {
+  "cep": "71693-006",
+  "logradouro": "Quadra 5",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Vila São José (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693010": {
+  "cep": "71693-010",
+  "logradouro": "Quadra 9",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Vila São José (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693131": {
+  "cep": "71693-131",
+  "logradouro": "Rua 28",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Vila Nova (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71694017": {
+  "cep": "71694-017",
+  "logradouro": "Quadra 19",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Residencial do Bosque (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ }
+}
