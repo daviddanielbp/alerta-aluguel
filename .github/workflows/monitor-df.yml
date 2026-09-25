@@ -92,6 +92,10 @@ jobs:
         run: node monitor/orcamento.js registrar --inicio="$INICIO"
 
 
+      - name: Resumo diário no Telegram
+        if: always()
+        run: node monitor/resumo_diario.js
+
       - name: Salvar estado (anúncios já vistos + minutos)
         if: always()
         run: |
