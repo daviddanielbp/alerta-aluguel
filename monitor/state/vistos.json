@@ -1194,7 +1194,8 @@
    "chaves": [
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-por-r-800-00-mes-centro-sao-sebastiao-df-1522205218",
     "zap:2902067839",
-    "id:olx:1522205218"
+    "id:olx:1522205218",
+    "id:zap:2902067839"
    ],
    "data_publicacao": "2026-07-29",
    "fuzzy": "fz:800|70|1|São Sebastião",
@@ -1216,7 +1217,8 @@
    "chaves": [
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-2-dormitorios-para-alugar-por-r-1-200-00-mes-residencial-do-bosque-sa-1504525764",
     "zap:2888466181",
-    "id:olx:1504525764"
+    "id:olx:1504525764",
+    "id:zap:2888466181"
    ],
    "data_publicacao": "2026-05-23",
    "fuzzy": "fz:1200|60|2|São Sebastião",
@@ -1279,7 +1281,8 @@
    "chaves": [
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-alugar-em-brasilia-vila-sao-jose-sao-sebastiao-com-2-quartos-50m-1525373949",
     "zap:2904701676",
-    "id:olx:1525373949"
+    "id:olx:1525373949",
+    "id:zap:2904701676"
    ],
    "data_publicacao": "2026-08-11",
    "fuzzy": "fz:1000|50|2|São Sebastião",
@@ -3424,7 +3427,8 @@
     "url:imovelweb.com.br/propriedades/apartamento-com-2-dormitorios-para-alugar-por-r$-3043539759.html",
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-2-dormitorios-para-alugar-por-r-1-200-mes-vila-sao-jose-sao-sebastiao-1528505425",
     "zap:2907106882",
-    "id:imovelweb:3043539759"
+    "id:imovelweb:3043539759",
+    "id:zap:2907106882"
    ],
    "data_publicacao": "2026-09-24",
    "fuzzy": "fz:1200|65|2|São Sebastião",
