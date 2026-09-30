@@ -57,6 +57,9 @@ module.exports = {
   STATE_DIR,
   TELEGRAM_TOKEN: env.TELEGRAM_TOKEN || '',
   TELEGRAM_CHAT_ID: env.TELEGRAM_CHAT_ID || '',
+  // Lista fechada de quem recebe mensagens (IDs separados por vírgula). O bot nunca manda para
+  // um chat fora desta lista; TELEGRAM_CHAT_ID (antigo, um só) também entra.
+  TELEGRAM_CHAT_IDS: [...new Set([...lista(env.TELEGRAM_CHAT_IDS), ...lista(env.TELEGRAM_CHAT_ID)])],
   PRECO_MAX: num(env.PRECO_MAX, 1200),
   // 'todas' ou lista separada por vírgula (nomes como em scrapers/common.js REGIOES)
   REGIOES_ALERTA: /^todas?$/i.test(regioesAlerta) || !regioesAlerta ? null : lista(regioesAlerta),

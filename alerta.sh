@@ -12,7 +12,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 CONTA="daviddanielbp"
-REPO="daviddanielbp/alerta-aluguel-unb"
+REPO="daviddanielbp/alerta-aluguel"
 INTERVALO_MIN="${INTERVALO_MIN:-30}"     # rodada local de SS/JB
 DF_A_CADA_H="${DF_A_CADA_H:-6}"          # rodada local do DF inteiro
 WORKFLOWS=(monitor-ssjb.yml monitor-df.yml)

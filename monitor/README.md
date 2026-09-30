@@ -8,7 +8,7 @@ anúncios **novos** e as **baixas de preço**.
 
 ```
 TELEGRAM_TOKEN=123456:ABC...        # do @BotFather (sem token = dry-run automático)
-TELEGRAM_CHAT_ID=                   # opcional; senão: node monitor/telegram.js descobrir
+TELEGRAM_CHAT_IDS=111,222           # OBRIGATÓRIO: só estes chats recebem mensagens (ache o ID com: node monitor/telegram.js descobrir)
 PRECO_MAX=1200
 REGIOES_ALERTA=todas                # ou: São Sebastião, Jardim Botânico, Asa Norte
 RAIO_QUENTE_KM=1.5                  # São Sebastião até essa distância do terminal ganha 🔥
@@ -55,7 +55,7 @@ Para "reavisar" um anúncio (teste): apague a entrada dele em `state/vistos.json
 
 ## GitHub Actions
 
-- Secrets `TELEGRAM_TOKEN` e `TELEGRAM_CHAT_ID` viram variáveis de ambiente do job (têm prioridade sobre o `.env`).
+- Secrets `TELEGRAM_TOKEN` e `TELEGRAM_CHAT_IDS` viram variáveis de ambiente do job (têm prioridade sobre o `.env`).
 - Sem token o monitor roda em dry-run (avisa no log e só imprime as mensagens).
 - Passos típicos do job: `npm ci` → `npx playwright install --with-deps chromium` →
   `npm run monitor:ssjb` (ou `monitor:df`) → commit de `monitor/state/{vistos.json,geocache.json,execucoes.jsonl}`.

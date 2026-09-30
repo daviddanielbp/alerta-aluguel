@@ -1,15 +1,14 @@
 // Envio de mensagens pelo Telegram Bot API.
 //   enviar(texto)        -> sendMessage (HTML), com retry e respeito ao 429 (retry_after)
-//   descobrirChatId()    -> getUpdates: pega o chat de quem mandou /start ao bot e salva em state/telegram.json
+//   quemMandou()         -> getUpdates: lista quem mandou mensagem ao bot (só para achar o ID; não autoriza ninguém)
+// Destinatários: SOMENTE os IDs de TELEGRAM_CHAT_IDS (lista fechada no .env / secrets). Sem lista,
+// o envio falha: o bot nunca escolhe sozinho para quem mandar.
 // Sem TELEGRAM_TOKEN (ou com setDryRun(true)) funciona em modo dry-run: só imprime no console.
 //
-// CLI:  node monitor/telegram.js descobrir     (depois de mandar /start ao bot)
-//       node monitor/telegram.js teste         (manda uma mensagem de teste)
-const fs = require('fs');
-const path = require('path');
+// CLI:  node monitor/telegram.js descobrir     (mostra os IDs de quem mandou /start ao bot)
+//       node monitor/telegram.js teste         (manda uma mensagem de teste para a lista)
 const config = require('./config');
 
-const STATE_FILE = path.join(config.STATE_DIR, 'telegram.json');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let dryRun = !config.TELEGRAM_TOKEN;
 const enviadas = []; // histórico da execução (útil para testes/log)
@@ -17,10 +16,7 @@ const enviadas = []; // histórico da execução (útil para testes/log)
 function setDryRun(v) { dryRun = !!v || !config.TELEGRAM_TOKEN; }
 function isDryRun() { return dryRun; }
 
-function lerEstado() {
-  try { return JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')); } catch { return {}; }
-}
-function chatId() { return config.TELEGRAM_CHAT_ID || lerEstado().chat_id || null; }
+function destinatarios() { return config.TELEGRAM_CHAT_IDS; }
 
 async function api(metodo, corpo, tentativas = 5) {
   const url = `https://api.telegram.org/bot${config.TELEGRAM_TOKEN}/${metodo}`;
@@ -49,16 +45,18 @@ async function api(metodo, corpo, tentativas = 5) {
   throw ultimoErro || new Error(`Telegram ${metodo}: falhou`);
 }
 
-async function descobrirChatId() {
+// Só consulta: quem mandou mensagem ao bot, com o ID, para a pessoa copiar para TELEGRAM_CHAT_IDS.
+async function quemMandou() {
   if (!config.TELEGRAM_TOKEN) throw new Error('TELEGRAM_TOKEN não configurado no .env');
   const ups = await api('getUpdates', { allowed_updates: ['message'] });
-  const msgs = ups.map((u) => u.message || u.channel_post).filter(Boolean);
-  const alvo = msgs.reverse().find((m) => /^\/start/.test(m.text || '')) || msgs[0];
-  if (!alvo) throw new Error('Nenhuma mensagem encontrada. Mande /start para o bot no Telegram e tente de novo.');
-  const est = { chat_id: alvo.chat.id, nome: [alvo.chat.first_name, alvo.chat.last_name].filter(Boolean).join(' ') || alvo.chat.title || alvo.chat.username || null, descoberto_em: new Date().toISOString() };
-  fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
-  fs.writeFileSync(STATE_FILE, JSON.stringify(est, null, 2));
-  return est;
+  const chats = new Map();
+  for (const u of ups) {
+    const m = u.message;
+    if (!m || m.chat.type !== 'private') continue;
+    const nome = [m.chat.first_name, m.chat.last_name].filter(Boolean).join(' ') || m.chat.username || '';
+    chats.set(m.chat.id, { chat_id: m.chat.id, nome, autorizado: destinatarios().includes(String(m.chat.id)) });
+  }
+  return [...chats.values()];
 }
 
 // Envia uma mensagem (HTML). O Telegram mostra a prévia do primeiro link do texto.
@@ -69,26 +67,37 @@ async function enviar(texto, { previa = true } = {}) {
     console.log('\n----- [telegram dry-run] -----\n' + texto + '\n------------------------------');
     return { dryRun: true };
   }
-  let id = chatId();
-  if (!id) id = (await descobrirChatId()).chat_id;
-  const r = await api('sendMessage', {
-    chat_id: id, text: texto, parse_mode: 'HTML',
-    link_preview_options: { is_disabled: !previa, prefer_small_media: true },
-    disable_web_page_preview: !previa, // compatibilidade com versões antigas da API
-  });
+  const ids = destinatarios();
+  if (!ids.length) throw new Error('TELEGRAM_CHAT_IDS vazio: defina os IDs autorizados no .env / secrets');
+  const resultados = [];
+  const erros = [];
+  for (const id of ids) {
+    try {
+      resultados.push(await api('sendMessage', {
+        chat_id: id, text: texto, parse_mode: 'HTML',
+        link_preview_options: { is_disabled: !previa, prefer_small_media: true },
+        disable_web_page_preview: !previa, // compatibilidade com versões antigas da API
+      }));
+    } catch (e) { erros.push(`${id}: ${e.message}`); }
+  }
   enviadas.push(texto);
   await sleep(1100); // no máx. ~1 msg/s por chat
-  return r;
+  // Falha de um destinatário (ex.: ainda não deu /start) não impede os outros; só falha se todos falharem.
+  if (!resultados.length) throw new Error(erros.join('; '));
+  if (erros.length) console.error('telegram: falhou para', erros.join('; '));
+  return resultados;
 }
 
-module.exports = { enviar, descobrirChatId, setDryRun, isDryRun, chatId, enviadas };
+module.exports = { enviar, quemMandou, setDryRun, isDryRun, destinatarios, enviadas };
 
 if (require.main === module) {
   const cmd = process.argv[2];
   (async () => {
     if (cmd === 'descobrir') {
-      const e = await descobrirChatId();
-      console.log('chat_id salvo em', STATE_FILE, e);
+      const lista = await quemMandou();
+      if (!lista.length) console.log('Ninguém mandou mensagem recente ao bot. Peça para mandar /start e rode de novo.');
+      for (const c of lista) console.log(`${c.chat_id}\t${c.nome}\t${c.autorizado ? 'AUTORIZADO' : 'não autorizado'}`);
+      console.log('Para autorizar, coloque o ID em TELEGRAM_CHAT_IDS (separados por vírgula) no .env e nos secrets.');
     } else if (cmd === 'teste') {
       await enviar('✅ Teste do monitor de aluguéis: o bot está funcionando.');
       console.log(isDryRun() ? 'dry-run (sem TELEGRAM_TOKEN)' : 'enviado');
