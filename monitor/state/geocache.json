@@ -31,6 +31,11 @@
   "lon": -47.7589179,
   "fonte": "Rua 28, Vila Nova (São Sebastião), São Sebastião, Distrito Federal"
  },
+ "Rua 3, João Cândido (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.8988213,
+  "lon": -47.7643583,
+  "fonte": "Rua 3, João Cândido (São Sebastião), São Sebastião, Distrito Federal"
+ },
  "Rua 32, São Sebastião, Distrito Federal": {
   "lat": -15.897647,
   "lon": -47.7730435,
@@ -167,6 +172,21 @@
   "complemento": "",
   "unidade": "",
   "bairro": "Vila Nova (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693203": {
+  "cep": "71693-203",
+  "logradouro": "Rua 3",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "João Cândido (São Sebastião)",
   "localidade": "Brasília",
   "uf": "DF",
   "estado": "Distrito Federal",
