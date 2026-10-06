@@ -21,6 +21,11 @@
  "Quadra 202 Conjunto 6, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
  "Quadra 203 Conjunto 6, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
  "Quadra 5, Vila São José (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Residencial do Bosque (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.908834,
+  "lon": -47.752323,
+  "fonte": "Residencial do Bosque (São Sebastião), São Sebastião, Distrito Federal"
+ },
  "Residencial do Bosque, São Sebastião, Distrito Federal": {
   "lat": -15.908834,
   "lon": -47.752323,
@@ -50,6 +55,11 @@
   "lat": -15.900596,
   "lon": -47.780384,
   "fonte": "Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal"
+ },
+ "São Francisco (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9153248,
+  "lon": -47.7631578,
+  "fonte": "São Francisco (São Sebastião), São Sebastião, Distrito Federal"
  },
  "Vila São José (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.9139009,
@@ -196,9 +206,54 @@
   "ddd": "61",
   "siafi": "9701"
  },
+ "cep:71693317": {
+  "cep": "71693-317",
+  "logradouro": "Quadra 17",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "São Francisco (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71694006": {
+  "cep": "71694-006",
+  "logradouro": "Quadra 6",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Residencial do Bosque (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
  "cep:71694017": {
   "cep": "71694-017",
   "logradouro": "Quadra 19",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Residencial do Bosque (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71694024": {
+  "cep": "71694-024",
+  "logradouro": "Avenida 2",
   "complemento": "",
   "unidade": "",
   "bairro": "Residencial do Bosque (São Sebastião)",
