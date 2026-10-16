@@ -287,6 +287,8 @@ async function main() {
   fs.writeFileSync(OUT, JSON.stringify(final, null, 2));
   console.log(`\nDFimóveis: ${todos.length} brutos, ${final.length} passaram no filtro${bloqueado ? ' (houve bloqueio parcial)' : ''} -> ${OUT}`);
   await browser.close();
+  // bloqueado sem nada coletado: sai com erro para o resumo diário listar o site como "com erro"
+  if (cloudflareBloqueou && !todos.length) process.exitCode = 3;
 }
 
 if (require.main === module) {
