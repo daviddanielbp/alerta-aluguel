@@ -69,13 +69,23 @@ async function esperarCloudflare(page) {
   return false;
 }
 
+// Desafio do Cloudflare que não some em ~30 s = site bloqueando o robô: insistir só queima o
+// tempo do job (e um job cancelado perde o que os outros sites acharam). Desiste do site na hora.
+let cloudflareBloqueou = false;
+
 async function abrir(page, url, tentativas = 3) {
+  if (cloudflareBloqueou) return false;
   for (let i = 1; i <= tentativas; i++) {
     try {
       const r = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
       const ok = await esperarCloudflare(page);
-      if (ok && r && r.status() < 400) return true;
-      if (ok && r && r.status() === 404) return false;
+      if (!ok) {
+        cloudflareBloqueou = true;
+        console.warn(`  [${r && r.status()}] Cloudflare bloqueou ${url} — DFimóveis pulado nesta rodada`);
+        return false;
+      }
+      if (r && r.status() < 400) return true;
+      if (r && r.status() === 404) return false;
       console.warn(`  [${r && r.status()}] bloqueio/erro em ${url} (tentativa ${i})`);
     } catch (e) {
       console.warn(`  erro ao abrir ${url}: ${e.message} (tentativa ${i})`);
@@ -218,7 +228,7 @@ async function main() {
       const url = `${BASE}/aluguel/df/todos/${tipo}?valorfinal=${FILTRO.precoMax}${pg > 1 ? `&pagina=${pg}` : ''}`;
       if (!(await abrir(page, url))) {
         if (pg === 1) console.warn(`  sem resultados/bloqueado em ${url}`);
-        bloqueado = bloqueado || /momento|moment/i.test(await page.title().catch(() => ''));
+        bloqueado = bloqueado || cloudflareBloqueou || /momento|moment/i.test(await page.title().catch(() => ''));
         break;
       }
       const h1 = await page.evaluate(() => document.querySelector('h1')?.innerText || '');

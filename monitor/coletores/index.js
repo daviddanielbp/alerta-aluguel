@@ -74,9 +74,11 @@ function matarArvore(child) {
 }
 
 // Retorna { nome, itens, erro, seg, pico_rss_mb, trafego, extra, log }
-async function executar(nome, { precoMax = config.PRECO_MAX, log = console.log } = {}) {
-  const c = config.COLETORES[nome];
-  if (!c) return { nome, itens: [], erro: `coletor desconhecido: ${nome}`, seg: 0 };
+// timeoutMin: encurta o limite do coletor (prazo global do run.js); nunca aumenta o do config.
+async function executar(nome, { precoMax = config.PRECO_MAX, log = console.log, timeoutMin = null } = {}) {
+  const base = config.COLETORES[nome];
+  if (!base) return { nome, itens: [], erro: `coletor desconhecido: ${nome}`, seg: 0 };
+  const c = timeoutMin ? { ...base, timeoutMin: Math.min(base.timeoutMin, timeoutMin) } : base;
   fs.mkdirSync(LOGS, { recursive: true });
   fs.mkdirSync(WORK, { recursive: true });
   const t0 = Date.now();

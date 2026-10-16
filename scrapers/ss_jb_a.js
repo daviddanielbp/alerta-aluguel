@@ -338,7 +338,12 @@ async function coletarOlx(precoMax, log, amplo = false) {
 // =====================================================================================
 const DFI = 'https://www.dfimoveis.com.br';
 
+// Desafio do Cloudflare que não some em ~30 s = bloqueio: desiste do DFimóveis na rodada
+// (insistir estourava o tempo do job e a rodada inteira era perdida).
+let dfiBloqueado = false;
+
 async function dfiAbrir(page, url) {
+  if (dfiBloqueado) return false;
   for (let i = 1; i <= 3; i++) {
     try {
       const r = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
@@ -347,8 +352,9 @@ async function dfiAbrir(page, url) {
         if (!/just a moment|um momento|attention required/i.test(await page.title().catch(() => ''))) { ok = true; break; }
         await page.waitForTimeout(1500);
       }
-      if (ok && r && r.status() < 400) return true;
-      if (ok && r && r.status() === 404) return false;
+      if (!ok) { dfiBloqueado = true; return false; }
+      if (r && r.status() < 400) return true;
+      if (r && r.status() === 404) return false;
     } catch (_) { /* retry */ }
     await sleep(12000 * i + rand(0, 4000)); // 429: recua
   }
@@ -460,7 +466,7 @@ async function coletarDfimoveis(precoMax, log) {
       let achados = 0, h1 = '';
       for (let pg = 1; pg <= 30; pg++) {
         const url = `${DFI}/aluguel/df/${loc}/imoveis?valorfinal=${precoMax}${pg > 1 ? `&pagina=${pg}` : ''}`;
-        if (!(await dfiAbrir(page, url))) { if (pg === 1) st.bloqueios.push(`DFimóveis: falhou ${url}`); break; }
+        if (!(await dfiAbrir(page, url))) { if (pg === 1 && !dfiBloqueado) st.bloqueios.push(`DFimóveis: falhou ${url}`); break; }
         st.paginas++;
         if (pg === 1) h1 = await page.evaluate(() => document.querySelector('h1')?.innerText || '');
         const cards = await page.evaluate(dfiCards);
@@ -478,6 +484,7 @@ async function coletarDfimoveis(precoMax, log) {
         if (!cards.length || !novos) break;
         await sleep(rand(1500, 3000));
       }
+      if (dfiBloqueado) { st.bloqueios.push('DFimóveis: bloqueado pelo Cloudflare'); log('  DFimóveis: bloqueado pelo Cloudflare — pulado nesta rodada'); break; }
       log(`  DFimóveis ${loc}: "${h1.split('\n')[0]}" -> ${achados} candidatos`);
       await sleep(rand(1500, 3000));
     }

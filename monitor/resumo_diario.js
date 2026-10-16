@@ -19,10 +19,10 @@ try {
 
 const texto = [
   '📊 <b>Resumo do dia · alerta de aluguel</b>',
-  `✅ ${dia.length} rodadas nas últimas 24 h`,
+  dia.length ? `✅ ${dia.length} rodadas nas últimas 24 h` : '🚨 nenhuma rodada terminou nas últimas 24 h (jobs travando/cancelados no GitHub)',
   `🔎 ${soma('aprovados')} anúncios checados dentro do filtro`,
   `🆕 ${soma('notificados')} novos enviados${soma('baixas') ? ` · 📉 ${soma('baixas')} baixas de preço` : ''}`,
-  falhas.length ? `⚠️ sites com erro: ${falhas.join(', ')}` : '🌐 todos os sites responderam',
+  falhas.length ? `⚠️ sites com erro: ${falhas.join(', ')}` : dia.length ? '🌐 todos os sites responderam' : '❔ sem dados dos sites',
   `⏱️ ${minutos}/2000 min do GitHub usados no mês`,
 ].join('\n');
 

@@ -169,11 +169,23 @@ async function main() {
   }
 
   // 1) coletores em sequência (um navegador por vez; VM de 1 GB)
+  // MONITOR_PRAZO_MIN: tempo total da coleta. Se um site travar, os seguintes são pulados ou
+  // encurtados para sobrar tempo de processar, salvar e notificar — antes, o job era cancelado
+  // pelo timeout do GitHub e TUDO o que os outros sites acharam se perdia.
+  const prazoMin = Number(process.env.MONITOR_PRAZO_MIN) || 0;
+  const fimColeta = prazoMin ? t0 + prazoMin * 60000 : Infinity;
   const brutos = [];
   const resultados = {};
   for (const nome of nomes) {
+    const restanteMin = (fimColeta - Date.now()) / 60000;
+    if (restanteMin < 1.5) {
+      log(`→ ${nome}: pulado (prazo de ${prazoMin} min da coleta esgotado)`);
+      resultados[nome] = { nome, itens: [], erro: 'pulado: sem tempo na rodada', seg: 0 };
+      execucao.coletores[nome] = { brutos: 0, seg: 0, erro: 'pulado: sem tempo na rodada' };
+      continue;
+    }
     log(`→ ${nome}...`);
-    const r = await executar(nome, { log });
+    const r = await executar(nome, { log, timeoutMin: Number.isFinite(restanteMin) ? Math.floor(restanteMin * 10) / 10 : null });
     resultados[nome] = r;
     brutos.push(...r.itens);
     execucao.coletores[nome] = { brutos: r.itens.length, seg: r.seg, pico_rss_mb: r.pico_rss_mb, erro: r.erro || undefined, trafego: r.trafego || undefined };
