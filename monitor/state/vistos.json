@@ -1639,11 +1639,12 @@
    "area_m2": 47,
    "bairro": "Sobradinho",
    "chaves": [
-    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-sao-sebastiao-1539563731"
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-sao-sebastiao-1539563731",
+    "id:olx:1539563731"
    ],
    "data_publicacao": "2026-09-28",
    "dist_terminal_km": null,
-   "fuzzy": "fz:1200|47|2|Sobradinho",
+   "fuzzy": "fz:1200|47|2|São Sebastião",
    "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-sao-sebastiao-1539563731",
    "notificado": true,
    "preco": 1200,
