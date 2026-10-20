@@ -7,10 +7,16 @@
   "lon": -53.8958254,
   "fonte": "71693-006, Brasil"
  },
+ "71695-097, Brasil": null,
  "Centro, São Sebastião, Distrito Federal": {
   "lat": -15.904653,
   "lon": -47.770176,
   "fonte": "Centro, São Sebastião, Distrito Federal"
+ },
+ "Crixá (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9193178,
+  "lon": -47.7576566,
+  "fonte": "Crixá (São Sebastião), São Sebastião, Distrito Federal"
  },
  "Quadra 102, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.8989551,
@@ -36,6 +42,8 @@
   "lon": -47.7589179,
   "fonte": "Rua 28, Vila Nova (São Sebastião), São Sebastião, Distrito Federal"
  },
+ "Rua 3 Lote 4, Crixá (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Rua 3 lote 4, Crixá (São Sebastião), São Sebastião, Distrito Federal": null,
  "Rua 3, João Cândido (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.8988213,
   "lon": -47.7643583,
@@ -257,6 +265,21 @@
   "complemento": "",
   "unidade": "",
   "bairro": "Residencial do Bosque (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71695097": {
+  "cep": "71695-097",
+  "logradouro": "Rua 3 Lote 4",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Crixá (São Sebastião)",
   "localidade": "Brasília",
   "uf": "DF",
   "estado": "Distrito Federal",
