@@ -850,6 +850,27 @@
    "titulo": "Aluga se Apto de 2 Quartos CIDADE Estrutural ",
    "ultimo_visto": "2026-10-24"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apto-no-cond-crixas-1-sao-sebastiao-1547368938": {
+   "area_m2": 50,
+   "bairro": "Jardins Mangueiral (Jardim Botânico)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apto-no-cond-crixas-1-sao-sebastiao-1547368938",
+    "id:olx:1547368938"
+   ],
+   "data_publicacao": "2026-10-25",
+   "dist_terminal_km": 6.91,
+   "fuzzy": "fz:1100|50|2|Jardim Botânico",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apto-no-cond-crixas-1-sao-sebastiao-1547368938",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-10-25",
+   "quartos": 2,
+   "regiao": "Jardim Botânico",
+   "site": "OLX",
+   "titulo": "Aluga -se apto no Cond Crixas 1 São Sebastião .",
+   "ultimo_visto": "2026-10-25"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-casa-02-quartos-qnm-36-setor-m-norte-1520165307": {
    "area_m2": null,
    "bairro": "Taguatinga Norte (Taguatinga)",
