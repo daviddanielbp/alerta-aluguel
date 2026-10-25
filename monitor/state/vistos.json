@@ -26,11 +26,11 @@
   },
   "ss_jb_a": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-10-24"
+   "ultimo_sucesso": "2026-10-25"
   },
   "ss_jb_b": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-10-24"
+   "ultimo_sucesso": "2026-10-25"
   },
   "zap_vivareal": {
    "primeiro_sucesso": "2026-09-25",
@@ -544,7 +544,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "ALUGA-SE APARTAMENTO 1 QUARTO",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-1-quarto-1546607266": {
    "area_m2": null,
@@ -1754,7 +1754,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Alugo Apartamento - São Sebastião ",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-02-qts-r-1000-reais-riacho-fundo1-avenida-sucupira-1539264493": {
    "area_m2": 45,
@@ -2825,7 +2825,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "ALUGUEL SÃO SEBASTIÃO ",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-sobradinho-leia-o-anuncio-1537669184": {
    "area_m2": 40,
@@ -3694,7 +3694,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "Apartamento com 2 dormitórios para alugar por R$ 1.200,00/mês - Residencial do Bosque - Sã",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-compacto-1524041945": {
    "area_m2": 42,
@@ -4060,7 +4060,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "Apartamento para alugar em Brasília, Vila São José (São Sebastião), com 2 quartos, 50m²",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-alugar-no-guara-qe-40-rua-22-lote-14-1541008315": {
    "area_m2": 42,
@@ -4301,7 +4301,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "Apartamento residencial de 2 quarto por R$1.000,00 Residencial Do Bosque/DF",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-residencial-para-locacao-2-quartos-terreo-aguas-claras-ade-conjunto-09-1537845215": {
    "area_m2": 40,
@@ -4684,7 +4684,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "Casa alugar João Cândido São Sebastião DF",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-de-01-quarto-quadra-14-sobradinho-1-df-1537680012": {
    "area_m2": null,
@@ -4732,7 +4732,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "Casa de 2 Quartos para Aluguel em São Francisco  R$ 700,00",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-de-fundos-1546963303": {
    "area_m2": null,
@@ -9038,6 +9038,27 @@
    "titulo": "Casa 1 quarto 40m² - Quadra 17 Conjunto D, Sobradinho",
    "ultimo_visto": "2026-10-08"
   },
+  "url:quintoandar.com.br/imovel/895266408": {
+   "area_m2": 47,
+   "bairro": "São Sebastião",
+   "chaves": [
+    "url:quintoandar.com.br/imovel/895266408",
+    "id:quintoandar:895266408"
+   ],
+   "data_publicacao": "2026-09-03",
+   "dist_terminal_km": 3.58,
+   "fuzzy": "fz:1190|47|2|São Sebastião",
+   "link": "https://www.quintoandar.com.br/imovel/895266408",
+   "notificado": true,
+   "preco": 1190,
+   "preco_inicial": 1190,
+   "primeiro_visto": "2026-10-25",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "QuintoAndar",
+   "titulo": "Apartamento para alugar em São Sebastião",
+   "ultimo_visto": "2026-10-25"
+  },
   "url:quintoandar.com.br/imovel/895683804": {
    "area_m2": 46,
    "bairro": "Itapoã Park",
@@ -9643,7 +9664,7 @@
    "regiao": "São Sebastião",
    "site": "ZAP",
    "titulo": "",
-   "ultimo_visto": "2026-10-24"
+   "ultimo_visto": "2026-10-25"
   },
   "zap:2916191879": {
    "area_m2": 40,
