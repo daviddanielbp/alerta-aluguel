@@ -4416,7 +4416,8 @@
    "chaves": [
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-residencial-de-2-quarto-por-r-1-000-00-residencial-do-bosque-df-1541660028",
     "zap:2916028679",
-    "id:olx:1541660028"
+    "id:olx:1541660028",
+    "id:zap:2916028679"
    ],
    "data_publicacao": "2026-10-06",
    "dist_terminal_km": 0.73,
