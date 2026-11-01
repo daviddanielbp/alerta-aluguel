@@ -7,6 +7,7 @@
   "lon": -53.8958254,
   "fonte": "71693-006, Brasil"
  },
+ "71695-070, Brasil": null,
  "71695-097, Brasil": null,
  "Centro, São Sebastião, Distrito Federal": {
   "lat": -15.904653,
@@ -42,6 +43,8 @@
   "lon": -47.752323,
   "fonte": "Residencial do Bosque, São Sebastião, Distrito Federal"
  },
+ "Rua 1 Lote 1, Crixá (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Rua 1 lote 1, Crixá (São Sebastião), São Sebastião, Distrito Federal": null,
  "Rua 28, Vila Nova (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.9057706,
   "lon": -47.7589179,
@@ -270,6 +273,21 @@
   "complemento": "",
   "unidade": "",
   "bairro": "Residencial do Bosque (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71695070": {
+  "cep": "71695-070",
+  "logradouro": "Rua 1 Lote 1",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Crixá (São Sebastião)",
   "localidade": "Brasília",
   "uf": "DF",
   "estado": "Distrito Federal",
