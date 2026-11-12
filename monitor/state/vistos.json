@@ -589,6 +589,27 @@
    "titulo": "Aluga - se",
    "ultimo_visto": "2026-11-11"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-ap-de-um-quarto-1552158223": {
+   "area_m2": 48,
+   "bairro": "Vila São José (São Sebastião)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-ap-de-um-quarto-1552158223",
+    "id:olx:1552158223"
+   ],
+   "data_publicacao": "2026-11-11",
+   "dist_terminal_km": 0.4,
+   "fuzzy": "fz:800|48|1|São Sebastião",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-ap-de-um-quarto-1552158223",
+   "notificado": true,
+   "preco": 800,
+   "preco_inicial": 800,
+   "primeiro_visto": "2026-11-11",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "OLX",
+   "titulo": "Aluga_se ap de um quarto ",
+   "ultimo_visto": "2026-11-11"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-ap-na-estrutural-1549427406": {
    "area_m2": null,
    "bairro": "Setor Leste (Vila Estrutural)",
@@ -10926,7 +10947,8 @@
    "chaves": [
     "url:quintoandar.com.br/imovel/895773057",
     "id:quintoandar:895773057",
-    "url:chavesnamao.com.br/imovel/apartamento-para-alugar-2-quartos-df-brasilia-sao-sebastiao-50m2-rs1200/id-48664136"
+    "url:chavesnamao.com.br/imovel/apartamento-para-alugar-2-quartos-df-brasilia-sao-sebastiao-50m2-rs1200/id-48664136",
+    "id:chaves na mão:48664136"
    ],
    "data_publicacao": "2026-11-04",
    "dist_terminal_km": 0.54,
