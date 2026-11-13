@@ -11859,6 +11859,27 @@
    "site": "ZAP",
    "titulo": "",
    "ultimo_visto": "2026-11-13"
+  },
+  "zap:2922439677": {
+   "area_m2": 60,
+   "bairro": "Setor Leste",
+   "chaves": [
+    "zap:2922439677",
+    "id:zap:2922439677"
+   ],
+   "data_publicacao": "2026-11-13",
+   "dist_terminal_km": 0.8,
+   "fuzzy": "fz:1060|60|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922439677/",
+   "notificado": true,
+   "preco": 1060,
+   "preco_inicial": 1060,
+   "primeiro_visto": "2026-11-13",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-13"
   }
  },
  "versao": 2
