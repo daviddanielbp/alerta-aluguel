@@ -34,6 +34,11 @@
  "Quadra 202 Conjunto 6, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
  "Quadra 203 Conjunto 6, Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": null,
  "Quadra 5, Vila São José (São Sebastião), São Sebastião, Distrito Federal": null,
+ "Residencial Vitória Rua 1, Residencial Vitória (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9096312,
+  "lon": -47.7694268,
+  "fonte": "Residencial Vitória Rua 1, Residencial Vitória (São Sebastião), São Sebastião, Distrito Federal"
+ },
  "Residencial do Bosque (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.908834,
   "lon": -47.752323,
@@ -69,6 +74,11 @@
   "lat": -15.9055796,
   "lon": -47.7558644,
   "fonte": "Rua 32, VILA NOVA, SAO SEBASTIAO, São Sebastião, Distrito Federal"
+ },
+ "Setor Habitacional Jardim Botânico, Jardim Botânico, Distrito Federal": {
+  "lat": -15.8819234,
+  "lon": -47.8095614,
+  "fonte": "Setor Habitacional Jardim Botânico, Jardim Botânico, Distrito Federal"
  },
  "Setor Residencial Oeste (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.900596,
@@ -231,6 +241,21 @@
   "complemento": "",
   "unidade": "",
   "bairro": "São Francisco (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693701": {
+  "cep": "71693-701",
+  "logradouro": "Residencial Vitória Rua 1",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Residencial Vitória (São Sebastião)",
   "localidade": "Brasília",
   "uf": "DF",
   "estado": "Distrito Federal",
