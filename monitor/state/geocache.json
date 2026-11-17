@@ -75,6 +75,11 @@
   "lon": -47.7558644,
   "fonte": "Rua 32, VILA NOVA, SAO SEBASTIAO, São Sebastião, Distrito Federal"
  },
+ "Rua 39, Vila Nova (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9063479,
+  "lon": -47.759529,
+  "fonte": "Rua 39, Vila Nova (São Sebastião), São Sebastião, Distrito Federal"
+ },
  "Setor Habitacional Jardim Botânico, Jardim Botânico, Distrito Federal": {
   "lat": -15.8819234,
   "lon": -47.8095614,
@@ -208,6 +213,21 @@
  "cep:71693131": {
   "cep": "71693-131",
   "logradouro": "Rua 28",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Vila Nova (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693139": {
+  "cep": "71693-139",
+  "logradouro": "Rua 39",
   "complemento": "",
   "unidade": "",
   "bairro": "Vila Nova (São Sebastião)",
