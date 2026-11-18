@@ -2,7 +2,7 @@
  "coletores": {
   "chaves_mercadolivre": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-11-17"
+   "ultimo_sucesso": "2026-11-18"
   },
   "dfimoveis": {
    "primeiro_sucesso": "2026-09-25",
@@ -14,15 +14,15 @@
   },
   "olx": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-11-17"
+   "ultimo_sucesso": "2026-11-18"
   },
   "outros": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-11-17"
+   "ultimo_sucesso": "2026-11-18"
   },
   "quintoandar": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-11-17"
+   "ultimo_sucesso": "2026-11-18"
   },
   "ss_jb_a": {
    "primeiro_sucesso": "2026-09-25",
@@ -34,7 +34,7 @@
   },
   "zap_vivareal": {
    "primeiro_sucesso": "2026-09-25",
-   "ultimo_sucesso": "2026-11-17"
+   "ultimo_sucesso": "2026-11-18"
   }
  },
  "itens": {
@@ -99,6 +99,26 @@
    "titulo": "Uma excelente oportunidade para quem busca localização, praticidade e flexibilidade em um único imóvel! Características ",
    "ultimo_visto": "2026-09-25"
   },
+  "url:chavesnamao.com.br/imovel/apartamento-para-alugar-1-quarto-df-brasilia-riacho-fundo-i-52m2-rs1160/id-37526391": {
+   "area_m2": null,
+   "bairro": "Riacho Fundo I",
+   "chaves": [
+    "url:chavesnamao.com.br/imovel/apartamento-para-alugar-1-quarto-df-brasilia-riacho-fundo-i-52m2-rs1160/id-37526391"
+   ],
+   "data_publicacao": "2025-12-05",
+   "dist_terminal_km": null,
+   "fuzzy": null,
+   "link": "https://www.chavesnamao.com.br/imovel/apartamento-para-alugar-1-quarto-df-brasilia-riacho-fundo-i-52m2-RS1160/id-37526391/",
+   "notificado": true,
+   "preco": 1160,
+   "preco_inicial": 1160,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "Riacho Fundo",
+   "site": "Chaves na Mão",
+   "titulo": "Apartamento para Aluguel - Riacho Fundo, 1 Quarto,  52 m² - Brasília",
+   "ultimo_visto": "2026-11-18"
+  },
   "url:chavesnamao.com.br/imovel/casa-para-alugar-1-quarto-com-garagem-df-brasilia-taguatinga-45m2-rs1130/id-48483095": {
    "area_m2": null,
    "bairro": "Taguatinga",
@@ -137,7 +157,7 @@
    "regiao": "Riacho Fundo",
    "site": "Chaves na Mão",
    "titulo": "Casa para Aluguel - Riacho Fundo II, 1 Quarto,  60 m² - Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:chavesnamao.com.br/imovel/casa-para-alugar-1-quarto-df-brasilia-riacho-fundo-ii-60m2-rs830/id-46744395": {
    "area_m2": null,
@@ -177,7 +197,7 @@
    "regiao": "Guará",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Quadras Econômicas Lúcio Costa (Guará), 1 dormitório, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-1-quarto-riacho-fundo-i-riacho-fundo-40m2-aluguel-rs700-id-351987914": {
    "area_m2": 40,
@@ -204,7 +224,7 @@
    "regiao": "Riacho Fundo",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Riacho Fundo I, 1 dormitório, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-1-quarto-setor-placa-da-mercedes-nucleo-bandeirante-45m2-aluguel-rs750-id-347420020": {
    "area_m2": 45,
@@ -224,7 +244,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Setor Placa da Mercedes (Núcleo Bandeirante), 1 dormitório, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-1-quarto-taguatinga-norte-taguatinga-aluguel-rs1000-id-353725997": {
    "area_m2": null,
@@ -284,7 +304,7 @@
    "regiao": "Águas Claras",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Área de Desenvolvimento Econômico (Águas Claras), 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-2-quartos-area-de-desenvolvimento-economico-aguas-claras-75m2-aluguel-rs1100-id-353150411": {
    "area_m2": 75,
@@ -304,7 +324,7 @@
    "regiao": "Águas Claras",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Área de Desenvolvimento Econômico (Águas Claras), 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-2-quartos-nucleo-bandeirante-nucleo-bandeirante-60m2-aluguel-rs800-id-351602710": {
    "area_m2": 60,
@@ -324,7 +344,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Núcleo Bandeirante, 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-2-quartos-riacho-fundo-i-riacho-fundo-60m2-aluguel-rs1100-id-353536976": {
    "area_m2": 60,
@@ -346,7 +366,7 @@
    "regiao": "Riacho Fundo",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Riacho Fundo I, 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-2-quartos-setor-placa-da-mercedes-nucleo-bandeirante-60m2-aluguel-rs600-id-348474724": {
    "area_m2": 60,
@@ -366,7 +386,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Setor Placa da Mercedes (Núcleo Bandeirante), 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-2-quartos-setor-placa-da-mercedes-nucleo-bandeirante-60m2-aluguel-rs700-id-350607721": {
    "area_m2": 60,
@@ -406,7 +426,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Setor Placa da Mercedes (Núcleo Bandeirante), 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-3-quartos-nucleo-bandeirante-nucleo-bandeirante-60m2-aluguel-rs1000-id-353536977": {
    "area_m2": 60,
@@ -426,7 +446,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "Lugar Certo",
    "titulo": "Apartamento para Locação em Brasília, Núcleo Bandeirante, 3 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:correiobraziliense.lugarcerto.com.br/imovel/apartamento-asa-norte-brasilia-plano-piloto-aluguel-rs1200-id-353732700": {
    "area_m2": null,
@@ -466,7 +486,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "1 QUARTO -  Condomínio Entre Lagos - Itapoã",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/2-quartos-rua-4-de-vicente-pires-subsolo-1524440748": {
    "area_m2": 48,
@@ -486,7 +506,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "2 quartos rua 4 de Vicente Pires subsolo ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/ade-aguas-claras-r-950-00-2-quartos-terreo-ventilado-1551400994": {
    "area_m2": 61,
@@ -547,7 +567,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "ALUGA APT DE 1 QUARTO COM VARANDA RUA 8 VICENTE PIRES",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-apt-seguro-1546231341": {
    "area_m2": 40,
@@ -627,7 +647,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Aluga - se",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-ap-de-2-quartos-cozinha-americana-agua-e-energia-ja-incluso-1552731803": {
    "area_m2": null,
@@ -647,7 +667,7 @@
    "regiao": "Park Way",
    "site": "OLX",
    "titulo": "Aluga-se Ap de 2 quartos cozinha americana água e energia já incluso ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-ap-de-um-quarto-1552158223": {
    "area_m2": 48,
@@ -851,7 +871,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Aluga-se apartamento 2 quartos no riacho fundo2 1.200R$. WhatsApp: *",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-apartamento-1543742583": {
    "area_m2": null,
@@ -891,7 +911,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Aluga-se Apartamento com 2 Quartos",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-de-01-quarto-na-qs-11-areal-1532539060": {
    "area_m2": null,
@@ -911,7 +931,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Aluga-se apartamento de 01 quarto na QS 11 - Areal",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-de-1-quarto-leia-o-anuncio-com-atencao-antes-de-entrar-em-contato-1546840439": {
    "area_m2": null,
@@ -931,7 +951,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "ALUGA-SE APARTAMENTO DE 1 QUARTO  LEIA O ANÚNCIO COM ATENÇÃO ANTES DE ENTRAR EM CONTATO!",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-de-2-quartos-1-vaga-qs-12-riacho-fundo-2-1541395034": {
    "area_m2": 48,
@@ -971,7 +991,7 @@
    "regiao": "Estrutural",
    "site": "OLX",
    "titulo": "ALUGA-SE APARTAMENTO DE 2 QUARTOS - CIDADE ESTRUTURAL",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-de-2-quartos-de-frente-segundo-andar-1538211964": {
    "area_m2": 50,
@@ -1011,7 +1031,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Aluga-se apartamento de 2 quartos - no riacho fundo 2  chama no WhatsApp *? ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-em-frente-br020-1502644695": {
    "area_m2": 60,
@@ -1032,7 +1052,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Aluga-se apartamento em frente BR020.",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamento-localizado-na-qnm-40-da-mnorte-por-favor-leia-o-anuncio-1538002688": {
    "area_m2": 50,
@@ -1175,7 +1195,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "ALUGA-SE APARTAMENTO VICENTE PIRES ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apartamentos-de-1-e-2-quartos-em-vicente-pires-localizacao-privilegiada-1540972825": {
    "area_m2": null,
@@ -1195,7 +1215,27 @@
    "regiao": "Asa Norte",
    "site": "OLX",
    "titulo": "Aluga-se apartamentos de 1 e 2 quartos em Vicente Pires. Localização privilegiada.",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
+  },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apt-1554026428": {
+   "area_m2": null,
+   "bairro": "Guará II",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apt-1554026428"
+   ],
+   "data_publicacao": "2026-11-18",
+   "dist_terminal_km": null,
+   "fuzzy": null,
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apt-1554026428",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "Guará",
+   "site": "OLX",
+   "titulo": "Aluga - se Apt",
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apt-de-1-quarto-em-taguatinga-na-qsd-55-ao-lado-da-estacao-de-metro-1528983597": {
    "area_m2": null,
@@ -1236,7 +1276,7 @@
    "regiao": "Estrutural",
    "site": "OLX",
    "titulo": "Aluga se Apto de 2 Quartos CIDADE Estrutural ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-apto-no-cond-crixas-1-sao-sebastiao-1547368938": {
    "area_m2": 50,
@@ -1425,7 +1465,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Aluga-se casa de 1 quarto na QS 11 - Areal",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-casa-na-26-de-setembro-1523715593": {
    "area_m2": null,
@@ -1465,7 +1505,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Aluga-se casa na Qs 11 - Areal",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-casa-na-qs-11-areal-1532536269": {
    "area_m2": null,
@@ -1485,7 +1525,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Aluga-se casa na QS 11 -Areal",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-casa-na-quadra-14-do-paranoa-1539714229": {
    "area_m2": null,
@@ -1505,7 +1545,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Aluga-se casa na Quadra 14 do Paranoá ",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-casa-no-itapoa-1521213723": {
    "area_m2": 75,
@@ -1545,7 +1585,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Aluga se M norte (parte debaixo)",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-otimo-apartamento-1527692766": {
    "area_m2": 50,
@@ -1606,7 +1646,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Aluga-se parte debaixo sobrado",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-um-apartamento-1523558583": {
    "area_m2": null,
@@ -1628,6 +1668,26 @@
    "site": "OLX",
    "titulo": "Aluga-se um apartamento",
    "ultimo_visto": "2026-10-03"
+  },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-um-excelente-apartamento-1-quarto-semi-mobiliado-na-ade-conj-23-de-aguas-claras-1553719078": {
+   "area_m2": 45,
+   "bairro": "Área de Desenvolvimento Econômico (Águas Claras)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-um-excelente-apartamento-1-quarto-semi-mobiliado-na-ade-conj-23-de-aguas-claras-1553719078"
+   ],
+   "data_publicacao": "2026-11-17",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1100|45|1|Águas Claras",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-um-excelente-apartamento-1-quarto-semi-mobiliado-na-ade-conj-23-de-aguas-claras-1553719078",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "Águas Claras",
+   "site": "OLX",
+   "titulo": "Aluga-se um excelente apartamento 1 quarto semi mobiliado na ADE conj 23 de Águas Claras",
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluga-se-uma-casa-com-2-quartos-no-itapoa-1532608534": {
    "area_m2": 80,
@@ -1769,7 +1829,7 @@
    "regiao": "Guará",
    "site": "OLX",
    "titulo": "Alugo ap 2 qrts - Polo de Modas , Guara",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-01-quarto-1547818922": {
    "area_m2": 49,
@@ -1812,7 +1872,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Alugo apartamento 02 quartos no Itapoã parque ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-1-quarto-1-andar-r-900-00-1552882073": {
    "area_m2": null,
@@ -1993,7 +2053,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "alugo apartamento dois quartos no itapoâ parque",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-e-li-net-no-jardim-botanico-1553464994": {
    "area_m2": 62,
@@ -2136,6 +2196,26 @@
    "titulo": "Alugo apartamento Itapoã Parque",
    "ultimo_visto": "2026-10-26"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-na-melhor-quadra-do-riacho-fundo-1-1553503408": {
+   "area_m2": null,
+   "bairro": "Setor Habitacional Arniqueira (Águas Claras)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-na-melhor-quadra-do-riacho-fundo-1-1553503408"
+   ],
+   "data_publicacao": "2026-11-16",
+   "dist_terminal_km": null,
+   "fuzzy": null,
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-na-melhor-quadra-do-riacho-fundo-1-1553503408",
+   "notificado": true,
+   "preco": 800,
+   "preco_inicial": 800,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "Águas Claras",
+   "site": "OLX",
+   "titulo": "Alugo apartamento na melhor quadra do Riacho fundo 1",
+   "ultimo_visto": "2026-11-18"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-na-qe-40-guara-2-1535978034": {
    "area_m2": null,
    "bairro": "Guará II",
@@ -2260,7 +2340,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Alugo apartamento no Itapoã Parque",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-no-itapoa-parque-3-quartos-1538938048": {
    "area_m2": 60,
@@ -2309,7 +2389,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Alugo apartamento no Itapuã Parque ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-no-paranoa-parque-1535471044": {
    "area_m2": 80,
@@ -2356,7 +2436,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Alugo apartamento no paranoá parque ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-no-paranoa-parque-ou-vendo-1539415053": {
    "area_m2": null,
@@ -2376,7 +2456,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Alugo apartamento no Paranoá parque ou vendo",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apartamento-no-riacho-fundo-ii-1539010032": {
    "area_m2": 65,
@@ -2538,7 +2618,7 @@
    "regiao": "Asa Norte",
    "site": "OLX",
    "titulo": "Alugo apt 1 QT QE 40 RUA 18",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-01-riacho-fundo-1-qn-09-1548314409": {
    "area_m2": null,
@@ -2600,7 +2680,7 @@
    "regiao": "Guará",
    "site": "OLX",
    "titulo": "ALUGO APTO 1 QT GUARÁ 2",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-1538809044": {
    "area_m2": null,
@@ -2625,22 +2705,29 @@
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-2-quartos-na-ade-proximo-adm-arniqueiras-1416067609": {
    "area_m2": 48,
    "bairro": "Área de Desenvolvimento Econômico (Águas Claras)",
+   "baixas": [
+    {
+     "de": 980,
+     "em": "2026-11-18",
+     "para": 978
+    }
+   ],
    "chaves": [
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-2-quartos-na-ade-proximo-adm-arniqueiras-1416067609"
    ],
    "data_publicacao": "2026-09-20",
-   "fuzzy": "fz:980|48|2|Águas Claras",
+   "fuzzy": "fz:978|48|2|Águas Claras",
    "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-2-quartos-na-ade-proximo-adm-arniqueiras-1416067609",
    "motivo": "seed",
    "notificado": false,
-   "preco": 980,
+   "preco": 978,
    "preco_inicial": 980,
    "primeiro_visto": "2026-09-25",
    "quartos": 2,
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Alugo Apto 2 quartos na ADE próximo ADM Arniqueiras",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-apto-de-1-quarto-ao-lado-da-eptg-valor-do-aluguel-1-100-00-1544749074": {
    "area_m2": 44,
@@ -3230,7 +3317,7 @@
    "regiao": "Park Way",
    "site": "OLX",
    "titulo": "Alugo sala em salão para cabeleireira ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-um-apto-de-1-quarto-na-qs-18-riacho-fundo-2-enfrente-o-terminal-de-onibus-1541029912": {
    "area_m2": 50,
@@ -3297,7 +3384,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Alugo uma casa no itapoa  01 ",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-1532333691": {
    "area_m2": null,
@@ -3377,7 +3464,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Aluguel ",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-2-quartos-no-riacho-fundo-2-1540995277": {
    "area_m2": 50,
@@ -3486,7 +3573,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Aluguel apartamento 2 quartos SEM FIADOR ITAPOA PARQUE ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-apartamento-guara-i-1-quarto-qi-05-1542772713": {
    "area_m2": 50,
@@ -3547,7 +3634,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Aluguel Apartamento na Fazendinha ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-apartamento-residencial-parque-riacho-2-riacho-fundo-1444095941": {
    "area_m2": 50,
@@ -3607,7 +3694,7 @@
    "regiao": "Sudoeste",
    "site": "OLX",
    "titulo": "Aluguel apt  Sudoeste ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-apto-vicente-pires-1551495954": {
    "area_m2": null,
@@ -3627,7 +3714,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "Aluguel Apto Vicente Pires",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-casa-terrea-1532886446": {
    "area_m2": null,
@@ -3747,7 +3834,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Aluguel de apartamento de um (01) quarto",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/aluguel-de-apartamento-na-candangolandia-1538202820": {
    "area_m2": null,
@@ -4089,7 +4176,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": " *)ap 2 qts",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/ap-padrao-2-quartos-qe-40-1521203902": {
    "area_m2": 50,
@@ -4129,7 +4216,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "Ap para solteiro ou casal sem filho na VP",
-   "ultimo_visto": "2026-11-15"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apart-adeac-conjunto-13-1543978103": {
    "area_m2": null,
@@ -4211,7 +4298,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento - 01 Quarto - QSE 02 - Taguatinga Sul",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-02-quartos-para-locacao-riacho-fundo-ii-brasilia-1535797576": {
    "area_m2": 56,
@@ -4335,7 +4422,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "OLX",
    "titulo": "Apartamento 1 quarto para Locação Núcleo Bandeirante, Brasília",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-1-quarto-para-locacao-paranoa-brasilia-1546971773": {
    "area_m2": 40,
@@ -4457,7 +4544,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "Apartamento ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-1quarto-no-s-h-grande-colorado-sodradinho-1549590657": {
    "area_m2": 45,
@@ -4477,13 +4564,15 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Apartamento 1quarto  no S.H. Grande Colorado Sodradinho",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quarto-na-qs-16riacho-fundo-2-1348566778": {
    "area_m2": 60,
    "bairro": "Riacho Fundo II",
    "chaves": [
-    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quarto-na-qs-16riacho-fundo-2-1348566778"
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quarto-na-qs-16riacho-fundo-2-1348566778",
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-02-quartos-no-terreo-condominio-21-do-riacho-fundo-ii-brasilia-1553990963",
+    "zap:2923287243"
    ],
    "data_publicacao": "2026-09-11",
    "fuzzy": "fz:1000|60|2|Riacho Fundo",
@@ -4497,7 +4586,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Apartamento 2 quarto na QS 16Riacho Fundo 2",
-   "ultimo_visto": "2026-11-10"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quartos-1545347768": {
    "area_m2": null,
@@ -4682,7 +4771,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Apartamento 2 quartos para Locação Paranoá, Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quartos-para-locacao-paranoa-brasilia-1546655342": {
    "area_m2": 45,
@@ -4703,7 +4792,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Apartamento 2 quartos para Locação Paranoá, Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quartos-para-locacao-paranoa-brasilia-1546655410": {
    "area_m2": 45,
@@ -4757,7 +4846,7 @@
    ],
    "data_publicacao": "2026-10-17",
    "dist_terminal_km": null,
-   "fuzzy": "fz:900|55|2|Taguatinga",
+   "fuzzy": "fz:900|45|2|Taguatinga",
    "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quartos-para-locacao-taguatinga-norte-brasilia-1544932313",
    "notificado": true,
    "preco": 900,
@@ -4767,7 +4856,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento 2 quartos para Locação TAGUATINGA NORTE, BRASÍLIA",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quartos-para-locacao-zona-industrial-guara-brasilia-1544488332": {
    "area_m2": 48,
@@ -4868,7 +4957,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento 2 quartos setor primavera Taguatinga Sul ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-2-quartos-terreo-setor-primavera-1523683323": {
    "area_m2": null,
@@ -4909,7 +4998,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Apartamento 3 quartos para Locação Itapoã Parque (Itapoã), Brasília",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-alugar-qnl-1525608765": {
    "area_m2": 50,
@@ -5024,7 +5113,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Apartamento com 2 quartos e vaga de Garagem para Locação no Areal",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-compacto-1524041945": {
    "area_m2": 42,
@@ -5104,7 +5193,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "APARTAMENTO DE 01 QUARTO  NA QN 14C ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-01-quarto-na-qn-8e-1542108555": {
    "area_m2": 55,
@@ -5124,7 +5213,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "APARTAMENTO DE -01 QUARTO NA QN 8E",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-02-quartos-qnd-56-1545434597": {
    "area_m2": null,
@@ -5164,7 +5253,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento de 02 quartos - QND 56 Taguatinga Norte",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-1-qt-para-alugar-guara-i-guarapark-r-800-00-1542431405": {
    "area_m2": 50,
@@ -5204,7 +5293,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento de 1 quarto",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-1-quarto-disponivel-para-locacao-1537355851": {
    "area_m2": null,
@@ -5224,7 +5313,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento de 1 quarto disponível para locação.",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-1-quarto-no-nucleo-bandeirante-1546660938": {
    "area_m2": null,
@@ -5244,7 +5333,7 @@
    "regiao": "Asa Norte",
    "site": "OLX",
    "titulo": "Apartamento de 1 quarto no núcleo bandeirante ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-1-quarto-sala-cozinha-e-banheiro-2-unidades-disponiveis-1552254216": {
    "area_m2": null,
@@ -5264,7 +5353,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Apartamento de 1 quarto, sala, cozinha e banheiro - 2 unidades disponíveis",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-2-quartos-em-vicente-pires-1445642081": {
    "area_m2": 60,
@@ -5284,7 +5373,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "Apartamento de 2 quartos em Vicente Pires. ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-de-2-quartos-localizado-na-placa-das-mercedes-1525333725": {
    "area_m2": 55,
@@ -5346,7 +5435,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Apartamento dois quartos.",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-itapoa-parque-1541874745": {
    "area_m2": null,
@@ -5449,7 +5538,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Apartamento para alugar, 64 m² por R$ 1.948,82/mês - Taguatinga Sul - Taguatinga/DF",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-alugar-em-brasilia-vila-sao-jose-sao-sebastiao-com-2-quartos-50m-1525373949": {
    "area_m2": 50,
@@ -5495,7 +5584,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Apartamento para Alugar no Condomínio 30, Itapoã Parque, com 3 Quartos e Vaga de Garagem.",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-alugar-no-guara-qe-40-rua-22-lote-14-1541008315": {
    "area_m2": 42,
@@ -5535,7 +5624,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Apartamento para alugar no Paranoá parque.",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-alugar-setor-placa-das-mercedes-1541472373": {
    "area_m2": null,
@@ -5626,7 +5715,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Apartamento para aluguel de 1 quarto 1° andar ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-locacao-2-dormitorios-1-banheiro-1549366260": {
    "area_m2": 47,
@@ -5675,6 +5764,27 @@
    "site": "OLX",
    "titulo": "APARTAMENTO PARA LOCAÇÃO  CNB 11, TAGUATINGA",
    "ultimo_visto": "2026-11-03"
+  },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-locacao-na-qe-38-comercio-local-40m2-1553889450": {
+   "area_m2": 40,
+   "bairro": "Guará II",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-locacao-na-qe-38-comercio-local-40m2-1553889450",
+    "zap:2923209882"
+   ],
+   "data_publicacao": "2026-11-18",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1150|40|1|Guará",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-locacao-na-qe-38-comercio-local-40m2-1553889450",
+   "notificado": true,
+   "preco": 1150,
+   "preco_inicial": 1150,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "Guará",
+   "site": "OLX",
+   "titulo": "Apartamento para Locação na QE 38 | Comércio Local | 40m2",
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-qe-40-guara-02-1546270782": {
    "area_m2": null,
@@ -5757,7 +5867,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "APARTAMENTO RESIDENCIAL 2 QUARTOS PARA LOCAÇÃO  ÁGUAS CLARAS / ADE CONJUNTO 08",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-residencial-de-2-quarto-por-r-1-000-00-residencial-do-bosque-df-1541660028": {
    "area_m2": 60,
@@ -5822,7 +5932,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Apartamento Riacho Fundo I ",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-terreo-2-quartos-vicente-pires-1548109300": {
    "area_m2": null,
@@ -5923,7 +6033,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "APARTAMENTO - VICENTE PIRES - AVENIDA DA MISERICÓRDIA",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apt-1-quarto-ade-1546948672": {
    "area_m2": null,
@@ -5983,7 +6093,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Apto 2 quartos no Itapoã I - ao lado da Smart Fit",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apto-2-quartos-polo-de-modas-guara-1543627383": {
    "area_m2": 60,
@@ -6198,7 +6308,9 @@
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/arniqueiras-r-950-00-2-quartos-terreo-1543567163",
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/ade-aguas-claras-r-950-00-2-quartos-terreo-1543567038",
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/arniqueiras-r-950-00-2-quartos-terreo-ventilado-1548550742",
-    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/ade-aguas-claras-r-950-00-2-quartos-terreo-ventilado-1548550276"
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/ade-aguas-claras-r-950-00-2-quartos-terreo-ventilado-1548550276",
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/arniqueiras-r-950-00-2-quartos-terreo-ventilado-1554046817",
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/ade-aguas-claras-r-950-00-2-quartos-terreo-ventilado-1554045564"
    ],
    "data_publicacao": "2026-09-25",
    "dist_terminal_km": null,
@@ -6212,7 +6324,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Arniqueiras - R$950,00 - 2 Quartos TÉRREO Ventilado",
-   "ultimo_visto": "2026-11-05"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/arniqueiras-r-950-00-2-quartos-terreo-ventilado-1551400507": {
    "area_m2": 61,
@@ -6313,6 +6425,26 @@
    "site": "OLX",
    "titulo": "Casa 1 quarto para Locação Candangolândia, Brasília",
    "ultimo_visto": "2026-09-30"
+  },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-2-quartos-para-locacao-del-lago-ii-itapoa-brasilia-1553898681": {
+   "area_m2": 64,
+   "bairro": "Del Lago II (Itapoã)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-2-quartos-para-locacao-del-lago-ii-itapoa-brasilia-1553898681"
+   ],
+   "data_publicacao": "2026-11-18",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1000|64|2|Itapoã",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-2-quartos-para-locacao-del-lago-ii-itapoa-brasilia-1553898681",
+   "notificado": true,
+   "preco": 1000,
+   "preco_inicial": 1000,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "Itapoã",
+   "site": "OLX",
+   "titulo": "Casa 2 quartos para Locação Del Lago II (Itapoã), Brasília",
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-2-quartos-segura-1539444244": {
    "area_m2": 112,
@@ -6503,6 +6635,26 @@
    "titulo": "Casa de fundos, moradia ou pra depósito. ",
    "ultimo_visto": "2026-10-06"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-de-fundos-na-mi-13-do-lago-norte-1553763806": {
+   "area_m2": 80,
+   "bairro": "Setor de Mansões do Lago Norte",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-de-fundos-na-mi-13-do-lago-norte-1553763806"
+   ],
+   "data_publicacao": "2026-11-17",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1000|80|1|Lago Norte",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-de-fundos-na-mi-13-do-lago-norte-1553763806",
+   "notificado": true,
+   "preco": 1000,
+   "preco_inicial": 1000,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "Lago Norte",
+   "site": "OLX",
+   "titulo": "Casa de fundos na MI-13 do Lago Norte ",
+   "ultimo_visto": "2026-11-18"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-de-fundos-setor-m-norte-taguatinga-1537880548": {
    "area_m2": null,
    "bairro": "Taguatinga Norte (Taguatinga)",
@@ -6541,7 +6693,7 @@
    "regiao": "Estrutural",
    "site": "OLX",
    "titulo": "Casa na Estrutural com dois quartos, banheiro, área de serviço sala e cozinha muito grande",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-para-alugar-com-1-quarto-garagem-e-area-de-servico-1547267057": {
    "area_m2": null,
@@ -6581,7 +6733,7 @@
    "regiao": "Asa Norte",
    "site": "OLX",
    "titulo": "? CASA PARA ALUGAR - M NORTE  Casa nos fundos",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-qsc-19-1539273459": {
    "area_m2": null,
@@ -6643,7 +6795,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Casa riacho fundo 2 ",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-rk-1551181266": {
    "area_m2": 200,
@@ -6663,7 +6815,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "casa RK",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-terrea-novinha-qd-18-1537508410": {
    "area_m2": 70,
@@ -6766,7 +6918,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Excelente apartamento para locação Taguatinga sul setor Primavera",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/excelente-casa-de-fundo-na-qsc-15-taguatinga-sul-1546972353": {
    "area_m2": 55,
@@ -6793,7 +6945,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Excelente casa de fundo na QSC 15 Taguatinga Sul",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/exclusividade-aluga-muito-rapido-vicente-pires-rua-4a-r-900-00-1-quarto-janela-p-1544113527": {
    "area_m2": 40,
@@ -6877,7 +7029,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Fenix Imóveis Aluga Apto 2 Paranoá Parque",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/guara-ii-qe-40-r-1-050-00-1-quarto-1551401067": {
    "area_m2": 40,
@@ -6947,7 +7099,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Imóvel para aluguel tem 45 metros quadrados com 2 quartos em Taguatinga Norte - Brasília -",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/imovel-para-aluguel-tem-65-metros-quadrados-com-2-quartos-em-taguatinga-norte-brasilia-1545965896": {
    "area_m2": 65,
@@ -7008,7 +7160,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Lindo apartamento cobertura segundo andar",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/lindo-ape-de-70m-2-quartos-1-suite-vaga-coberta-e-elevador-em-condominio-fechado-1543712974": {
    "area_m2": 70,
@@ -7028,7 +7180,7 @@
    "regiao": "Paranoá",
    "site": "OLX",
    "titulo": "Lindo Apê de 70m² - 2 Quartos (1 Suíte), Vaga Coberta e Elevador em Condomínio Fechado",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/locacao-apartamento-de-03-quartos-itapoa-parque-1537921225": {
    "area_m2": 60,
@@ -7055,7 +7207,7 @@
    "regiao": "Itapoã",
    "site": "OLX",
    "titulo": "Locação: Apartamento de 03 quartos Itapoã Parque",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/locacao-apartamento-de-3-quartos-itapoa-parque-1537922334": {
    "area_m2": 60,
@@ -7237,7 +7389,7 @@
    "regiao": "Águas Claras",
    "site": "OLX",
    "titulo": "Procura-se colega de quarto em Aguas Claras",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/proximo-ao-metro-1531342275": {
    "area_m2": 50,
@@ -7258,7 +7410,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Próximo ao metro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/qd-19-casa-02-quartos-1-vaga-garagem-sao-jose-sao-sebastiao-df-1501484216": {
    "area_m2": 70,
@@ -7318,7 +7470,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "QN 12-B | APART. 02 QUARTOS AMPLOS | 50 m² | Riacho Fundo 2",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/qnd-09-alugo-casa-1quarto-proximo-ao-pistao-norte-taguapark-praca-do-bicalho-1518916899": {
    "area_m2": 40,
@@ -7344,7 +7496,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "QND 09 - Alugo casa 1quarto próximo ao Pistão Norte Taguapark Praça do bicalho",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/qnj-30-01-qt-sl-coz-laje-r-890-00-tr-1551203489": {
    "area_m2": 55,
@@ -7424,7 +7576,7 @@
    "regiao": "Taguatinga",
    "site": "OLX",
    "titulo": "Quarto com banheiro em Taguatinga valor incluso água, luz e WI-FI * ",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/r-985-00-aluguel-de-apartamento-sobradinho-nova-colina-1543977999": {
    "area_m2": 80,
@@ -7467,7 +7619,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "RIACHO FUNDO 2.....QN14F,CONJUNTO 4,APTO 2 QUARTO,1° ANDAR, FRENTE",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/riacho-fundo-i-r-950-00-2-quartos-terreo-ventilado-1538874746": {
    "area_m2": 50,
@@ -7486,7 +7638,9 @@
     "zap:2917185835",
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/riacho-fundo-i-r-950-00-2-quartos-terreo-ventilado-1548550757",
     "zap:2919909545",
-    "zap:2919906677"
+    "zap:2919906677",
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/riacho-fundo-i-r-950-00-2-quartos-terreo-ventilado-1554047126",
+    "zap:2923326118"
    ],
    "data_publicacao": "2026-09-25",
    "dist_terminal_km": null,
@@ -7500,7 +7654,7 @@
    "regiao": "Riacho Fundo",
    "site": "OLX",
    "titulo": "Riacho Fundo I - R$950,00 - 2 Quartos TÉRREO Ventilado",
-   "ultimo_visto": "2026-11-06"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/riacho-fundo-i-r-950-00-2-quartos-terreo-ventilado-1551400907": {
    "area_m2": 61,
@@ -7540,7 +7694,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "Setor de expansão econômica ",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/sobradinho-setor-expansao-aluguel-apto-2-qts-sl-coz-bh-1498310393": {
    "area_m2": 55,
@@ -7560,7 +7714,7 @@
    "regiao": "Sobradinho",
    "site": "OLX",
    "titulo": "SObradinho  Setor Expansão Aluguel Apto 2 Qts Sl Coz Bh",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/sobrado-para-aluguel-com-70-metros-quadrados-com-2-quartos-em-setor-oeste-brasilia-df-1547595356": {
    "area_m2": 70,
@@ -7689,7 +7843,9 @@
    "bairro": "Setor Habitacional Vicente Pires",
    "chaves": [
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/vicente-pires-rua-4a-r-850-00-1-quarto-fosso-de-ventilacao-1551402661",
-    "zap:2921651272"
+    "zap:2921651272",
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/vicente-pires-rua-4a-r-850-00-1-quarto-fosso-de-ventilacao-1554047710",
+    "zap:2923328951"
    ],
    "data_publicacao": "2026-11-09",
    "dist_terminal_km": null,
@@ -7703,7 +7859,7 @@
    "regiao": "Vicente Pires",
    "site": "OLX",
    "titulo": "Vicente Pires Rua 4A - R$850,00 - 1 Quarto (Fosso de Ventilação)",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/vicente-pires-rua-4a-r-900-00-1-quarto-c-varanda-1541884574": {
    "area_m2": 40,
@@ -7973,7 +8129,7 @@
    "regiao": "Guará",
    "site": "DFimóveis",
    "titulo": "Apartamento 1 quartos para Locação Guará II, Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-guara-ii-guara-df-qe-40-conjunto-j-1449731": {
    "area_m2": 50,
@@ -8046,7 +8202,7 @@
    "regiao": "Guará",
    "site": "DFimóveis",
    "titulo": "APARTAMENTO DE 01 QUARTO NO EDIFICIO BRANCO I - GUARÁ II, BRASÍLIA",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-guara-ii-guara-df-rua-15-1456246": {
    "area_m2": 50,
@@ -8067,7 +8223,7 @@
    "regiao": "Guará",
    "site": "DFimóveis",
    "titulo": "LOTE 35 OPORTUNIDADE! EXCELENTE CUSTO X BENEFÍCIO!!!",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-guara-ii-guara-df-rua-20-1370320": {
    "area_m2": 40,
@@ -8239,7 +8395,7 @@
    "regiao": "Riacho Fundo",
    "site": "DFimóveis",
    "titulo": "Apartamento para Locação em Brasília, Riacho Fundo I, 1 dormitório, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-setor-habitacional-contagem-sobradinho-df-rodovia-df-0150-km-05-1116882": {
    "area_m2": 40,
@@ -8447,7 +8603,7 @@
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "Apartamento - 01 quarto - 1º andar - Taguatinga - Taguatinga Norte - Aluguel - Locação - 45m²;",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-taguatinga-norte-taguatinga-df-qna-48-1359852": {
    "area_m2": 43,
@@ -8610,7 +8766,8 @@
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-aluguel-1531182783",
     "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-taguatinga-sul-taguatinga-df-qsa-18-1182553",
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-em-taguatinga-norte-ao-lado-do-batalhao-de-policia-1427894811",
-    "zap:2828199407"
+    "zap:2828199407",
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/alugo-900-casa-com-1-suite-sala-cozinha-e-area-serv-1553701108"
    ],
    "data_publicacao": "2026-08-18",
    "fuzzy": "fz:900|40|1|Taguatinga",
@@ -8624,7 +8781,7 @@
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "Aluguel Apartamento 40 m²",
-   "ultimo_visto": "2026-11-12"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-taguatinga-norte-taguatinga-df-qnh-9-1416092": {
    "area_m2": 50,
@@ -8794,7 +8951,7 @@
    "regiao": "Vicente Pires",
    "site": "DFimóveis",
    "titulo": "Sem Condominio Apartamento com 1 dormitório para alugar, 40 m² por R$ 1.481,32/mês - Vicente Pires - Vicente Pires/",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-1-quarto-aluguel-vicente-pires-vicente-pires-df-rua-7-191503": {
    "area_m2": 45,
@@ -8986,7 +9143,7 @@
    "regiao": "Águas Claras",
    "site": "DFimóveis",
    "titulo": "QS 07 PRAÇA 810 LOTE 05 APTO 101 QS 07 PRAÇA 810 LOTE 05 APTO 101",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-guara-ii-guara-df-qe-40-conjunto-e-1287467": {
    "area_m2": 75,
@@ -9147,7 +9304,7 @@
    "regiao": "Guará",
    "site": "DFimóveis",
    "titulo": "Apartamento 2 quartos para Locação Guará II, Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-guara-ii-guara-df-rua-15-499642": {
    "area_m2": 40,
@@ -9252,7 +9409,7 @@
    "regiao": "Itapoã",
    "site": "DFimóveis",
    "titulo": "Apartamento para Locação Itapoã Parque",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-itapoa-parque-paranoa-df-quadra-501-conjunto-2-1272800": {
    "area_m2": 46,
@@ -9280,7 +9437,7 @@
    "regiao": "Itapoã",
    "site": "DFimóveis",
    "titulo": "Apartamento de 2 Quartos para Alugar no Condomínio 48 - Itapoã Parque",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-itapoa-parque-paranoa-df-quadra-501-conjunto-2-1381404": {
    "area_m2": 46,
@@ -9367,7 +9524,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "DFimóveis",
    "titulo": "Apartamento para Locação em Brasília, Núcleo Bandeirante, 2 dormitórios, 2 banheiros",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-nucleo-bandeirante-nucleo-bandeirante-df-terceira-avenida-bloco-1945-743487": {
    "area_m2": 60,
@@ -9391,7 +9548,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "DFimóveis",
    "titulo": "Apartamento para Locação em Brasília, Núcleo Bandeirante, 2 dormitórios, 1 banheiro",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-nucleo-rural-lago-oeste-sobradinho-df-via-basevi-ar-03-1406660": {
    "area_m2": 60,
@@ -9515,7 +9672,7 @@
    "regiao": "Riacho Fundo",
    "site": "DFimóveis",
    "titulo": "QN 31 CONJUNTO 4 BL 03 LOTE 04 APT 402 - CONDOMÍNIO 18",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-riacho-fundo-ii-riacho-fundo-df-qs-12-conjunto-2-1438066": {
    "area_m2": 47,
@@ -9633,7 +9790,7 @@
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "Aluguel Apartamento 60 m²",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-setor-placa-da-mercedes-nucleo-bandeirante-df-splm-conjunto-9-743465": {
    "area_m2": 60,
@@ -9655,7 +9812,7 @@
    "regiao": "Núcleo Bandeirante",
    "site": "DFimóveis",
    "titulo": "Apartamento para Locação em Brasília, Setor Placa da Mercedes (Núcleo Bandeirante), 2 dormitórios, 1",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-taguatinga-norte-taguatinga-df-cnb-10-1454970": {
    "area_m2": 59,
@@ -9854,7 +10011,7 @@
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "APARTAMENTO - QNM 38 CONJ Q LOTE 18 APT 04 (1º ANDAR)",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-taguatinga-sul-taguatinga-df-cse-4-1416383": {
    "area_m2": 50,
@@ -9889,7 +10046,7 @@
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "Apartamento com 2 quartos para Locação em Taguatinga Sul",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-taguatinga-sul-taguatinga-df-cse-5-1317312": {
    "area_m2": 44,
@@ -9992,6 +10149,11 @@
      "de": 1050,
      "em": "2026-11-16",
      "para": 950
+    },
+    {
+     "de": 1050,
+     "em": "2026-11-18",
+     "para": 950
     }
    ],
    "chaves": [
@@ -10005,18 +10167,18 @@
     "zap:2899726173"
    ],
    "data_publicacao": "2026-09-24",
-   "fuzzy": "fz:1050|50|2|Taguatinga",
+   "fuzzy": "fz:950|50|2|Taguatinga",
    "link": "https://www.dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-taguatinga-sul-taguatinga-df-cse-5-1400237",
    "motivo": "seed",
    "notificado": false,
-   "preco": 1050,
+   "preco": 950,
    "preco_inicial": 1050,
    "primeiro_visto": "2026-09-25",
    "quartos": 2,
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "Apartamento 2 quartos para Locação Taguatinga Sul",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-taguatinga-sul-taguatinga-df-csg-13-918348": {
    "area_m2": 75,
@@ -10059,7 +10221,7 @@
    "regiao": "Taguatinga",
    "site": "DFimóveis",
    "titulo": "Qse Ae 16 Apartamento com 2 dormitórios para alugar, 46 m² por R$ 1.120,01/mês - Taguatinga Sul - Taguatinga/D",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/apartamento-2-quartos-aluguel-vicente-pires-vicente-pires-df-setor-habitacional-vicente-pires-1439615": {
    "area_m2": 50,
@@ -10150,7 +10312,7 @@
    "regiao": "Sobradinho",
    "site": "DFimóveis",
    "titulo": "Casa de 2 quartos no Setor de Mansões",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:dfimoveis.com.br/imovel/casa-2-quartos-aluguel-taguatinga-norte-taguatinga-df-qnl-13-1030379": {
    "area_m2": 70,
@@ -10441,7 +10603,7 @@
    "regiao": "Paranoá",
    "site": "ImovelWeb",
    "titulo": "Apartamento  para alugar em Itapoa Parque, Paranoá!",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:imovelweb.com.br/propriedades/apartamento-para-alugar-sobradinho-df-2963206664.html": {
    "area_m2": 45,
@@ -10986,7 +11148,7 @@
    "regiao": "Riacho Fundo",
    "site": "ImovelWeb",
    "titulo": "Casa para Aluguel - Riacho Fundo II, 1 Quarto,  60 m² - Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:imovelweb.com.br/propriedades/casa-para-locacao-em-sobradinho-ii-2953690537.html": {
    "area_m2": 40,
@@ -11014,7 +11176,7 @@
    "regiao": "Sobradinho",
    "site": "ImovelWeb",
    "titulo": "CASA PARA LOCAÇÃO EM SOBRADINHO II",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "url:imovelweb.com.br/propriedades/casa-taguatinga-norte-taguatinga-3012164930.html": {
    "area_m2": null,
@@ -11258,7 +11420,7 @@
    "regiao": "Taguatinga",
    "site": "Loft",
    "titulo": "Apartamento 2 quartos - EQNM 34/36, Taguatinga Centro (Taguatinga)",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:loft.com.br/imovel/apartamento-quadra-502-conjunto-2-itapoa-parque-itapoa-brasilia-2-quartos-63m2/ec702hpp": {
    "area_m2": 63,
@@ -11290,7 +11452,7 @@
    "regiao": "Itapoã",
    "site": "Loft",
    "titulo": "Apartamento 2 quartos 63m² - Quadra 502 Conjunto 2, Itapoã Parque (Itapoã)",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:loft.com.br/imovel/apartamento-quadra-9-comercio-local-4-sobradinho-brasilia-1-quarto-49m2/ijlqehkr": {
    "area_m2": 49,
@@ -11330,7 +11492,7 @@
    "regiao": "Sobradinho",
    "site": "Loft",
    "titulo": "Casa 2 quartos 45m² - Condomínio Vale do Sol, Sobradinho",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:loft.com.br/imovel/casa-quadra-17-conjunto-d-sobradinho-brasilia-1-quarto-40m2/rrmqamd2": {
    "area_m2": 40,
@@ -11370,7 +11532,7 @@
    "regiao": "Guará",
    "site": "QuintoAndar",
    "titulo": "Apartamento para alugar em Guará Ii",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:quintoandar.com.br/imovel/895266408": {
    "area_m2": 47,
@@ -11473,6 +11635,26 @@
    "titulo": "Apartamento para alugar em Setor Habitacional Parque dos Ipes",
    "ultimo_visto": "2026-11-12"
   },
+  "url:quintoandar.com.br/imovel/895831377": {
+   "area_m2": 51,
+   "bairro": "Riacho Fundo Ii - 1a Etapa",
+   "chaves": [
+    "url:quintoandar.com.br/imovel/895831377"
+   ],
+   "data_publicacao": "2026-10-30",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1180|51|2|Riacho Fundo",
+   "link": "https://www.quintoandar.com.br/imovel/895831377",
+   "notificado": true,
+   "preco": 1180,
+   "preco_inicial": 1180,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "Riacho Fundo",
+   "site": "QuintoAndar",
+   "titulo": "Apartamento de 2 quartos para aluguel.",
+   "ultimo_visto": "2026-11-18"
+  },
   "url:quintoandar.com.br/imovel/895833195": {
    "area_m2": 40,
    "bairro": "Colônia Agrícola Sucupira",
@@ -11512,7 +11694,7 @@
    "regiao": "Taguatinga",
    "site": "QuintoAndar",
    "titulo": "Apartamento de 1 quarto para alugar no Setor M-norte.",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "url:wimoveis.com.br/propriedades/apartamento-de-01-quarto-eqnl-21-23-proximo-ao-jk-2995644310.html": {
    "area_m2": 50,
@@ -11593,7 +11775,7 @@
    "regiao": "Taguatinga",
    "site": "ZAP",
    "titulo": "Sem fiador - Alugo QNH - Apartamento 1 Quarto - 500m Hélio Prates - Taguatinga - C25801",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2570166610": {
    "area_m2": 60,
@@ -11614,7 +11796,7 @@
    "regiao": "Vicente Pires",
    "site": "ZAP",
    "titulo": "Apartamento para aluguel possui 60 metros quadrados com 2 quartos",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2570448987": {
    "area_m2": 50,
@@ -11699,7 +11881,7 @@
    "regiao": "Riacho Fundo",
    "site": "ZAP",
    "titulo": "QN 01 CONJUNTO 01 LOTE 06 APARTAMENTO 102 E 201 - RIACHO FUNDO/DF",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2721768182": {
    "area_m2": 55,
@@ -11742,7 +11924,7 @@
    "regiao": "Sobradinho",
    "site": "ZAP",
    "titulo": "apartamento 2 quartos",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2745918303": {
    "area_m2": 43,
@@ -11828,7 +12010,7 @@
    "regiao": "Riacho Fundo",
    "site": "ZAP",
    "titulo": "QN 01 CONJUNTO 01 LOTE 06 APARTAMENTO 201 - RIACHO FUNDO/DF",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2862842561": {
    "area_m2": 49,
@@ -11933,7 +12115,7 @@
    "regiao": "Taguatinga",
    "site": "ZAP",
    "titulo": "Apartamento 2 quartos para Locação Taguatinga Sul (Taguatinga), Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2877289921": {
    "area_m2": 43,
@@ -11974,7 +12156,7 @@
    "regiao": "Asa Sul",
    "site": "ZAP",
    "titulo": "",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2883109861": {
    "area_m2": 42,
@@ -12079,7 +12261,7 @@
    "regiao": "Itapoã",
    "site": "ZAP",
    "titulo": "Apartamento 2 quartos para Locação Fazendinha (Itapoã), Brasília",
-   "ultimo_visto": "2026-11-16"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2896493319": {
    "area_m2": 40,
@@ -12398,7 +12580,7 @@
    "regiao": "Paranoá",
    "site": "ZAP",
    "titulo": "Apartamento 2 quartos para Locação Paranoá Parque (Paranoá), Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2912615591": {
    "area_m2": 64,
@@ -12426,7 +12608,7 @@
    "regiao": "Paranoá",
    "site": "ZAP",
    "titulo": "Apartamento 2 quartos para Locação Paranoá, Brasília",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2914370857": {
    "area_m2": 48,
@@ -12554,7 +12736,7 @@
    "regiao": "Taguatinga",
    "site": "ZAP",
    "titulo": "",
-   "ultimo_visto": "2026-11-17"
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2916795049": {
    "area_m2": 50,
