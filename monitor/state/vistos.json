@@ -4988,7 +4988,9 @@
     "url:imovelweb.com.br/propriedades/apartamento-com-2-dormitorios-para-alugar-por-r$-3036024523.html",
     "zap:2888466181",
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-aluguel-2-quartos-vila-sao-jose-sao-sebastiao-brasilia-df-1541660519",
-    "id:olx:1541660519"
+    "id:olx:1541660519",
+    "zap:2922528642",
+    "id:zap:2922528642"
    ],
    "data_publicacao": "2026-05-23",
    "fuzzy": "fz:1200|60|2|São Sebastião",
@@ -5002,7 +5004,7 @@
    "regiao": "São Sebastião",
    "site": "OLX",
    "titulo": "Apartamento com 2 dormitórios para alugar por R$ 1.200,00/mês - Residencial do Bosque - Sã",
-   "ultimo_visto": "2026-11-12"
+   "ultimo_visto": "2026-11-18"
   },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-2-quartos-e-vaga-de-garagem-para-locacao-no-areal-1550885916": {
    "area_m2": 50,
@@ -5456,7 +5458,9 @@
     "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-para-alugar-em-brasilia-vila-sao-jose-sao-sebastiao-com-2-quartos-50m-1525373949",
     "zap:2904701676",
     "id:olx:1525373949",
-    "id:zap:2904701676"
+    "id:zap:2904701676",
+    "zap:2922491863",
+    "zap:2921883570"
    ],
    "data_publicacao": "2026-08-11",
    "fuzzy": "fz:1000|50|2|São Sebastião",
@@ -11653,6 +11657,27 @@
    "titulo": "",
    "ultimo_visto": "2026-10-08"
   },
+  "zap:2583778723": {
+   "area_m2": 40,
+   "bairro": "Centro",
+   "chaves": [
+    "zap:2583778723",
+    "id:zap:2583778723"
+   ],
+   "data_publicacao": "2022-10-07",
+   "dist_terminal_km": 1.68,
+   "fuzzy": "fz:1200|40|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2583778723/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2664724321": {
    "area_m2": 40,
    "bairro": "Riacho Fundo I",
@@ -11676,6 +11701,27 @@
    "titulo": "QN 01 CONJUNTO 01 LOTE 06 APARTAMENTO 102 E 201 - RIACHO FUNDO/DF",
    "ultimo_visto": "2026-11-17"
   },
+  "zap:2721768182": {
+   "area_m2": 55,
+   "bairro": "Jardim Quitandinha",
+   "chaves": [
+    "zap:2721768182",
+    "id:zap:2721768182"
+   ],
+   "data_publicacao": "2024-06-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:790|55|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2721768182/",
+   "notificado": true,
+   "preco": 790,
+   "preco_inicial": 790,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2745766800": {
    "area_m2": 40,
    "bairro": "Setor Econômico de Sobradinho",
@@ -11697,6 +11743,48 @@
    "site": "ZAP",
    "titulo": "apartamento 2 quartos",
    "ultimo_visto": "2026-11-17"
+  },
+  "zap:2745918303": {
+   "area_m2": 43,
+   "bairro": "Residencial Parque dos Servidores",
+   "chaves": [
+    "zap:2745918303",
+    "id:zap:2745918303"
+   ],
+   "data_publicacao": "2024-09-29",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1070|43|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2745918303/",
+   "notificado": true,
+   "preco": 1070,
+   "preco_inicial": 1070,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2833363667": {
+   "area_m2": 72,
+   "bairro": "Jardim Higienópolis",
+   "chaves": [
+    "zap:2833363667",
+    "id:zap:2833363667"
+   ],
+   "data_publicacao": "2025-09-03",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:850|72|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2833363667/",
+   "notificado": true,
+   "preco": 850,
+   "preco_inicial": 850,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2840521150": {
    "area_m2": 10000,
@@ -11742,6 +11830,90 @@
    "titulo": "QN 01 CONJUNTO 01 LOTE 06 APARTAMENTO 201 - RIACHO FUNDO/DF",
    "ultimo_visto": "2026-11-17"
   },
+  "zap:2862842561": {
+   "area_m2": 49,
+   "bairro": "Vila Santo Antônio do Portão",
+   "chaves": [
+    "zap:2862842561",
+    "id:zap:2862842561"
+   ],
+   "data_publicacao": "2026-01-03",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1100|49|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2862842561/",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2866209442": {
+   "area_m2": 49,
+   "bairro": "Nova Pompéia",
+   "chaves": [
+    "zap:2866209442",
+    "id:zap:2866209442"
+   ],
+   "data_publicacao": "2026-01-20",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:950|49|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2866209442/",
+   "notificado": true,
+   "preco": 950,
+   "preco_inicial": 950,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2866343874": {
+   "area_m2": 46,
+   "bairro": "Jardim Panorama",
+   "chaves": [
+    "zap:2866343874",
+    "id:zap:2866343874"
+   ],
+   "data_publicacao": "2026-01-20",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:964|46|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2866343874/",
+   "notificado": true,
+   "preco": 964,
+   "preco_inicial": 964,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2866901276": {
+   "area_m2": 53,
+   "bairro": "Centro",
+   "chaves": [
+    "zap:2866901276",
+    "id:zap:2866901276"
+   ],
+   "data_publicacao": "2026-01-24",
+   "dist_terminal_km": 1.68,
+   "fuzzy": "fz:983|53|null|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2866901276/",
+   "notificado": true,
+   "preco": 983,
+   "preco_inicial": 983,
+   "primeiro_visto": "2026-11-18",
+   "quartos": null,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2871177417": {
    "area_m2": 65,
    "bairro": "Taguatinga Sul",
@@ -11763,6 +11935,27 @@
    "titulo": "Apartamento 2 quartos para Locação Taguatinga Sul (Taguatinga), Brasília",
    "ultimo_visto": "2026-11-17"
   },
+  "zap:2877289921": {
+   "area_m2": 43,
+   "bairro": "Jardim Heitor Rigon",
+   "chaves": [
+    "zap:2877289921",
+    "id:zap:2877289921"
+   ],
+   "data_publicacao": "2026-03-25",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:800|43|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2877289921/",
+   "notificado": true,
+   "preco": 800,
+   "preco_inicial": 800,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2879738003": {
    "area_m2": 41,
    "bairro": "Asa Sul",
@@ -11782,6 +11975,69 @@
    "site": "ZAP",
    "titulo": "",
    "ultimo_visto": "2026-11-17"
+  },
+  "zap:2883109861": {
+   "area_m2": 42,
+   "bairro": "Jardim Ouro Branco",
+   "chaves": [
+    "zap:2883109861",
+    "id:zap:2883109861"
+   ],
+   "data_publicacao": "2026-04-28",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1000|42|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2883109861/",
+   "notificado": true,
+   "preco": 1000,
+   "preco_inicial": 1000,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2884688222": {
+   "area_m2": 62,
+   "bairro": "Ouro Branco",
+   "chaves": [
+    "zap:2884688222",
+    "id:zap:2884688222"
+   ],
+   "data_publicacao": "2026-05-05",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|62|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2884688222/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2884927994": {
+   "area_m2": 55,
+   "bairro": "Parque São Matheus",
+   "chaves": [
+    "zap:2884927994",
+    "id:zap:2884927994"
+   ],
+   "data_publicacao": "2026-05-06",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|55|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2884927994/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2886025397": {
    "area_m2": 43,
@@ -11825,6 +12081,27 @@
    "titulo": "Apartamento 2 quartos para Locação Fazendinha (Itapoã), Brasília",
    "ultimo_visto": "2026-11-16"
   },
+  "zap:2896493319": {
+   "area_m2": 40,
+   "bairro": "Vila Liviero",
+   "chaves": [
+    "zap:2896493319",
+    "id:zap:2896493319"
+   ],
+   "data_publicacao": "2026-07-02",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:800|40|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2896493319/",
+   "notificado": true,
+   "preco": 800,
+   "preco_inicial": 800,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2903986405": {
    "area_m2": 50,
    "bairro": "Setor Oeste",
@@ -11865,6 +12142,91 @@
    "site": "ZAP",
    "titulo": "Excelente apartamento 01 Quarto Qnd 57",
    "ultimo_visto": "2026-10-07"
+  },
+  "zap:2906277125": {
+   "area_m2": 53,
+   "bairro": "Vilas do Sobrado",
+   "chaves": [
+    "zap:2906277125",
+    "zap:2922406734",
+    "id:zap:2906277125"
+   ],
+   "data_publicacao": "2026-11-13",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|53|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2906277125/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2907116303": {
+   "area_m2": 48,
+   "bairro": "Jardim Arco-Íris",
+   "chaves": [
+    "zap:2907116303",
+    "id:zap:2907116303"
+   ],
+   "data_publicacao": "2026-08-22",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:850|48|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2907116303/",
+   "notificado": true,
+   "preco": 850,
+   "preco_inicial": 850,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2907231533": {
+   "area_m2": 41,
+   "bairro": "Conjunto Habitacional José Garcia Molina",
+   "chaves": [
+    "zap:2907231533",
+    "id:zap:2907231533"
+   ],
+   "data_publicacao": "2026-08-22",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:750|41|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2907231533/",
+   "notificado": true,
+   "preco": 750,
+   "preco_inicial": 750,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2907839443": {
+   "area_m2": 60,
+   "bairro": "Recanto",
+   "chaves": [
+    "zap:2907839443",
+    "id:zap:2907839443"
+   ],
+   "data_publicacao": "2026-08-26",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1100|60|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2907839443/",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
   },
   "zap:2909182380": {
    "area_m2": 45,
@@ -12066,6 +12428,49 @@
    "titulo": "Apartamento 2 quartos para Locação Paranoá, Brasília",
    "ultimo_visto": "2026-11-17"
   },
+  "zap:2914370857": {
+   "area_m2": 48,
+   "bairro": "Vila Melhado",
+   "chaves": [
+    "zap:2914370857",
+    "id:zap:2914370857"
+   ],
+   "data_publicacao": "2026-09-26",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:950|48|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2914370857/",
+   "notificado": true,
+   "preco": 950,
+   "preco_inicial": 950,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2914789165": {
+   "area_m2": 47,
+   "bairro": "Vila Serrão",
+   "chaves": [
+    "zap:2914789165",
+    "zap:2909312026",
+    "id:zap:2914789165"
+   ],
+   "data_publicacao": "2026-09-28",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1100|47|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2914789165/",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2916026187": {
    "area_m2": 40,
    "bairro": "Residencial do Bosque",
@@ -12191,6 +12596,27 @@
    "titulo": "",
    "ultimo_visto": "2026-10-28"
   },
+  "zap:2918432241": {
+   "area_m2": 42,
+   "bairro": "Reserva Real",
+   "chaves": [
+    "zap:2918432241",
+    "id:zap:2918432241"
+   ],
+   "data_publicacao": "2026-10-20",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:900|42|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2918432241/",
+   "notificado": true,
+   "preco": 900,
+   "preco_inicial": 900,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2918547680": {
    "area_m2": 42,
    "bairro": "Taguatinga Norte",
@@ -12231,6 +12657,133 @@
    "titulo": "",
    "ultimo_visto": "2026-11-15"
   },
+  "zap:2921076672": {
+   "area_m2": 55,
+   "bairro": "Jardim Botânico",
+   "chaves": [
+    "zap:2921076672",
+    "id:zap:2921076672"
+   ],
+   "data_publicacao": "2026-11-05",
+   "dist_terminal_km": 8.25,
+   "fuzzy": "fz:1200|55|2|Jardim Botânico",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2921076672/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "Jardim Botânico",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2921199862": {
+   "area_m2": 89,
+   "bairro": "Residencial Cambuy",
+   "chaves": [
+    "zap:2921199862",
+    "id:zap:2921199862"
+   ],
+   "data_publicacao": "2026-11-06",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:950|89|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2921199862/",
+   "notificado": true,
+   "preco": 950,
+   "preco_inicial": 950,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2921714845": {
+   "area_m2": 52,
+   "bairro": "Centro",
+   "chaves": [
+    "zap:2921714845",
+    "id:zap:2921714845"
+   ],
+   "data_publicacao": "2026-11-09",
+   "dist_terminal_km": 1.68,
+   "fuzzy": "fz:950|52|null|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2921714845/",
+   "notificado": true,
+   "preco": 950,
+   "preco_inicial": 950,
+   "primeiro_visto": "2026-11-18",
+   "quartos": null,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922229846": {
+   "area_m2": 45,
+   "bairro": "Harmonia",
+   "chaves": [
+    "zap:2922229846",
+    "zap:2869387740",
+    "id:zap:2922229846"
+   ],
+   "data_publicacao": "2026-11-12",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1100|45|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922229846/",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922297707": {
+   "area_m2": 50,
+   "bairro": "São Geraldo",
+   "chaves": [
+    "zap:2922297707",
+    "id:zap:2922297707"
+   ],
+   "data_publicacao": "2026-11-12",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:700|50|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922297707/",
+   "notificado": true,
+   "preco": 700,
+   "preco_inicial": 700,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922314599": {
+   "area_m2": 44,
+   "bairro": "Borba Gato",
+   "chaves": [
+    "zap:2922314599",
+    "id:zap:2922314599"
+   ],
+   "data_publicacao": "2026-11-13",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:850|44|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922314599/",
+   "notificado": true,
+   "preco": 850,
+   "preco_inicial": 850,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
   "zap:2922439677": {
    "area_m2": 60,
    "bairro": "Setor Leste",
@@ -12247,6 +12800,450 @@
    "preco_inicial": 1060,
    "primeiro_visto": "2026-11-13",
    "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922493357": {
+   "area_m2": 63,
+   "bairro": "Jardim Minnesota (Nova Veneza)",
+   "chaves": [
+    "zap:2922493357",
+    "id:zap:2922493357"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|63|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922493357/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922496757": {
+   "area_m2": 42,
+   "bairro": "Vila Altinópolis",
+   "chaves": [
+    "zap:2922496757",
+    "id:zap:2922496757"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:980|42|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922496757/",
+   "notificado": true,
+   "preco": 980,
+   "preco_inicial": 980,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922501761": {
+   "area_m2": 49,
+   "bairro": "Cidade Parque Brasília",
+   "chaves": [
+    "zap:2922501761",
+    "id:zap:2922501761"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:960|49|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922501761/",
+   "notificado": true,
+   "preco": 960,
+   "preco_inicial": 960,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922522183": {
+   "area_m2": 50,
+   "bairro": "Vila Xavier (Vila Xavier)",
+   "chaves": [
+    "zap:2922522183",
+    "zap:2889285492",
+    "id:zap:2922522183"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|50|null|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922522183/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": null,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922524344": {
+   "area_m2": 42,
+   "bairro": "Sítio Ipiranga",
+   "chaves": [
+    "zap:2922524344",
+    "zap:2922501755",
+    "id:zap:2922524344"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|42|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922524344/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922526841": {
+   "area_m2": 43,
+   "bairro": "Campos Ville",
+   "chaves": [
+    "zap:2922526841",
+    "id:zap:2922526841"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:850|43|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922526841/",
+   "notificado": true,
+   "preco": 850,
+   "preco_inicial": 850,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922527852": {
+   "area_m2": 54,
+   "bairro": "Jardim Parque Jupiá",
+   "chaves": [
+    "zap:2922527852",
+    "id:zap:2922527852"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|54|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922527852/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922528342": {
+   "area_m2": 57,
+   "bairro": "Nova América",
+   "chaves": [
+    "zap:2922528342",
+    "id:zap:2922528342"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|57|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922528342/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922533009": {
+   "area_m2": 47,
+   "bairro": "Campestre",
+   "chaves": [
+    "zap:2922533009",
+    "id:zap:2922533009"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:850|47|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922533009/",
+   "notificado": true,
+   "preco": 850,
+   "preco_inicial": 850,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922535099": {
+   "area_m2": 70,
+   "bairro": "Vila Angélica",
+   "chaves": [
+    "zap:2922535099",
+    "zap:2922314640",
+    "id:zap:2922535099"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1100|70|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922535099/",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922535311": {
+   "area_m2": 75,
+   "bairro": "SANTA MARIA DO HERVAL",
+   "chaves": [
+    "zap:2922535311",
+    "id:zap:2922535311"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1199|75|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922535311/",
+   "notificado": true,
+   "preco": 1199,
+   "preco_inicial": 1199,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922537356": {
+   "area_m2": 70,
+   "bairro": "Loteamento Abílio Jorge Cury",
+   "chaves": [
+    "zap:2922537356",
+    "id:zap:2922537356"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1200|70|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922537356/",
+   "notificado": true,
+   "preco": 1200,
+   "preco_inicial": 1200,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922537556": {
+   "area_m2": 63,
+   "bairro": "SANTA MARIA DO HERVAL",
+   "chaves": [
+    "zap:2922537556",
+    "id:zap:2922537556"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1099|63|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922537556/",
+   "notificado": true,
+   "preco": 1099,
+   "preco_inicial": 1099,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922538140": {
+   "area_m2": 70,
+   "bairro": "Jardim Planalto",
+   "chaves": [
+    "zap:2922538140",
+    "id:zap:2922538140"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1150|70|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922538140/",
+   "notificado": true,
+   "preco": 1150,
+   "preco_inicial": 1150,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922538975": {
+   "area_m2": 55,
+   "bairro": "Centro",
+   "chaves": [
+    "zap:2922538975",
+    "id:zap:2922538975"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": 1.68,
+   "fuzzy": "fz:1100|55|null|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922538975/",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-18",
+   "quartos": null,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922543141": {
+   "area_m2": 85,
+   "bairro": "São Mateus",
+   "chaves": [
+    "zap:2922543141",
+    "id:zap:2922543141"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:980|85|3|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922543141/",
+   "notificado": true,
+   "preco": 980,
+   "preco_inicial": 980,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 3,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922543372": {
+   "area_m2": 46,
+   "bairro": "Dois Córregos",
+   "chaves": [
+    "zap:2922543372",
+    "id:zap:2922543372"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:950|46|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922543372/",
+   "notificado": true,
+   "preco": 950,
+   "preco_inicial": 950,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922570354": {
+   "area_m2": 45,
+   "bairro": "Ininga",
+   "chaves": [
+    "zap:2922570354",
+    "id:zap:2922570354"
+   ],
+   "data_publicacao": "2026-11-14",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1000|45|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922570354/",
+   "notificado": true,
+   "preco": 1000,
+   "preco_inicial": 1000,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922687456": {
+   "area_m2": 45,
+   "bairro": "Jardim Quitandinha II",
+   "chaves": [
+    "zap:2922687456",
+    "id:zap:2922687456"
+   ],
+   "data_publicacao": "2026-11-15",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1000|45|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922687456/",
+   "notificado": true,
+   "preco": 1000,
+   "preco_inicial": 1000,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922696565": {
+   "area_m2": 50,
+   "bairro": "Santa Terezinha",
+   "chaves": [
+    "zap:2922696565",
+    "id:zap:2922696565"
+   ],
+   "data_publicacao": "2026-11-15",
+   "dist_terminal_km": null,
+   "fuzzy": "fz:1000|50|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922696565/",
+   "notificado": true,
+   "preco": 1000,
+   "preco_inicial": 1000,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-18"
+  },
+  "zap:2922735490": {
+   "area_m2": 44,
+   "bairro": "Vila São João",
+   "chaves": [
+    "zap:2922735490",
+    "id:zap:2922735490"
+   ],
+   "data_publicacao": "2026-11-15",
+   "dist_terminal_km": 2.13,
+   "fuzzy": "fz:1050|44|1|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2922735490/",
+   "notificado": true,
+   "preco": 1050,
+   "preco_inicial": 1050,
+   "primeiro_visto": "2026-11-18",
+   "quartos": 1,
    "regiao": "São Sebastião",
    "site": "ZAP",
    "titulo": "",
