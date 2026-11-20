@@ -1408,6 +1408,21 @@
   "ddd": "61",
   "siafi": "9701"
  },
+ "cep:71697051": {
+  "cep": "71697-051",
+  "logradouro": "Quadra 2 Conjunto 6",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "São Bartolomeu (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
  "cep:71697055": {
   "cep": "71697-055",
   "logradouro": "Quadra 2 Conjunto 8",
