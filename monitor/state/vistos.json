@@ -656,6 +656,27 @@
    "titulo": "Bota country",
    "ultimo_visto": "2026-11-23"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/celulares/poco-x6-pro-512gb-1555331668": {
+   "area_m2": null,
+   "bairro": "Alto Mangueiral (São Sebastião)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/celulares/poco-x6-pro-512gb-1555331668",
+    "id:olx:1555331668"
+   ],
+   "data_publicacao": "2026-11-23",
+   "dist_terminal_km": 4.01,
+   "fuzzy": null,
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/celulares/poco-x6-pro-512gb-1555331668",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-23",
+   "quartos": null,
+   "regiao": "São Sebastião",
+   "site": "OLX",
+   "titulo": "Poco X6 Pro 512gb",
+   "ultimo_visto": "2026-11-23"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/eletro/fogoes-e-fornos/vende-se-fogao-5-bocas-500-reais-1554262958": {
    "area_m2": null,
    "bairro": "São Bartolomeu (São Sebastião)",
@@ -7175,6 +7196,27 @@
    "titulo": "? CASA PARA ALUGAR - M NORTE  Casa nos fundos",
    "ultimo_visto": "2026-11-19"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-para-aluguel-no-residencial-do-bosque-1555252774": {
+   "area_m2": null,
+   "bairro": "Residencial do Bosque (São Sebastião)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-para-aluguel-no-residencial-do-bosque-1555252774",
+    "id:olx:1555252774"
+   ],
+   "data_publicacao": "2026-11-23",
+   "dist_terminal_km": 0.73,
+   "fuzzy": null,
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-para-aluguel-no-residencial-do-bosque-1555252774",
+   "notificado": true,
+   "preco": 850,
+   "preco_inicial": 850,
+   "primeiro_visto": "2026-11-23",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "OLX",
+   "titulo": "CASA PARA ALUGUEL NO RESIDENCIAL DO BOSQUE",
+   "ultimo_visto": "2026-11-23"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/casa-qsc-19-1539273459": {
    "area_m2": null,
    "bairro": "Taguatinga Sul (Taguatinga)",
@@ -12297,7 +12339,7 @@
    ],
    "data_publicacao": "2026-09-03",
    "dist_terminal_km": 3.58,
-   "fuzzy": "fz:1160|47|2|São Sebastião",
+   "fuzzy": null,
    "link": "https://www.quintoandar.com.br/imovel/895266408",
    "notificado": true,
    "preco": 1160,
