@@ -5764,6 +5764,27 @@
    "titulo": "Apartamento com 2 quartos e vaga de Garagem para Locação no Areal",
    "ultimo_visto": "2026-11-23"
   },
+  "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-garagem-em-sao-sebastiao-1556015322": {
+   "area_m2": 40,
+   "bairro": "Centro (São Sebastião)",
+   "chaves": [
+    "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-garagem-em-sao-sebastiao-1556015322",
+    "id:olx:1556015322"
+   ],
+   "data_publicacao": "2026-11-25",
+   "dist_terminal_km": 3.55,
+   "fuzzy": "fz:1100|40|2|São Sebastião",
+   "link": "https://df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-com-garagem-em-sao-sebastiao-1556015322",
+   "notificado": true,
+   "preco": 1100,
+   "preco_inicial": 1100,
+   "primeiro_visto": "2026-11-25",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "OLX",
+   "titulo": "Apartamento com garagem em São Sebastião ",
+   "ultimo_visto": "2026-11-25"
+  },
   "url:df.olx.com.br/distrito-federal-e-regiao/imoveis/apartamento-compacto-1524041945": {
    "area_m2": 42,
    "bairro": "Taguatinga Norte (Taguatinga)",
@@ -14611,6 +14632,27 @@
    "site": "ZAP",
    "titulo": "",
    "ultimo_visto": "2026-11-18"
+  },
+  "zap:2923474791": {
+   "area_m2": 40,
+   "bairro": "São Francisco",
+   "chaves": [
+    "zap:2923474791",
+    "id:zap:2923474791"
+   ],
+   "data_publicacao": "2026-11-19",
+   "dist_terminal_km": 0.66,
+   "fuzzy": "fz:700|40|2|São Sebastião",
+   "link": "https://www.zapimoveis.com.br/imovel/id-2923474791/",
+   "notificado": true,
+   "preco": 700,
+   "preco_inicial": 700,
+   "primeiro_visto": "2026-11-25",
+   "quartos": 2,
+   "regiao": "São Sebastião",
+   "site": "ZAP",
+   "titulo": "",
+   "ultimo_visto": "2026-11-25"
   }
  },
  "versao": 2

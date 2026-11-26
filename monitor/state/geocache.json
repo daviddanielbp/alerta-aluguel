@@ -237,6 +237,11 @@
  "Avenida Presidente Franklin Roosevelt, São Geraldo, São Sebastião, Distrito Federal": null,
  "Borba Gato, São Sebastião, Distrito Federal": null,
  "Campestre, São Sebastião, Distrito Federal": null,
+ "Centro (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.8914369,
+  "lon": -47.7815293,
+  "fonte": "Centro (São Sebastião), São Sebastião, Distrito Federal"
+ },
  "Centro, Ribeirão Preto, São Sebastião, Distrito Federal": null,
  "Centro, São Sebastião, Distrito Federal": {
   "lat": -15.904653,
@@ -421,6 +426,11 @@
   "lat": -15.9153248,
   "lon": -47.7631578,
   "fonte": "São Francisco (São Sebastião), São Sebastião, Distrito Federal"
+ },
+ "São Francisco, São Sebastião, Distrito Federal": {
+  "lat": -15.9153248,
+  "lon": -47.7631578,
+  "fonte": "São Francisco, São Sebastião, Distrito Federal"
  },
  "São Geraldo, São Sebastião, Distrito Federal": null,
  "São Mateus, São Sebastião, Distrito Federal": null,
