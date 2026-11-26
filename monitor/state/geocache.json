@@ -302,6 +302,11 @@
  "Recanto, São Sebastião, Distrito Federal": null,
  "Reserva Real, São Sebastião, Distrito Federal": null,
  "Residencial Cambuy, São Sebastião, Distrito Federal": null,
+ "Residencial Morro da Cruz (São Sebastião), São Sebastião, Distrito Federal": {
+  "lat": -15.9289285,
+  "lon": -47.7576404,
+  "fonte": "Residencial Morro da Cruz (São Sebastião), São Sebastião, Distrito Federal"
+ },
  "Residencial Parque dos Servidores, São Sebastião, Distrito Federal": null,
  "Residencial Vitória Rua 1, Residencial Vitória (São Sebastião), São Sebastião, Distrito Federal": {
   "lat": -15.9096312,
@@ -1246,6 +1251,21 @@
   "complemento": "",
   "unidade": "",
   "bairro": "São Francisco (São Sebastião)",
+  "localidade": "Brasília",
+  "uf": "DF",
+  "estado": "Distrito Federal",
+  "regiao": "Centro-Oeste",
+  "ibge": "5300108",
+  "gia": "",
+  "ddd": "61",
+  "siafi": "9701"
+ },
+ "cep:71693500": {
+  "cep": "71693-500",
+  "logradouro": "Residencial Morro da Cruz",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Residencial Morro da Cruz (São Sebastião)",
   "localidade": "Brasília",
   "uf": "DF",
   "estado": "Distrito Federal",
